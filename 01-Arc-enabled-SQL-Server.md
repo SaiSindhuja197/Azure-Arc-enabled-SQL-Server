@@ -122,3 +122,4 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
    ![](media/Ex1-Task2-Step12.png "H1E3T2S8")   
    
+1. Now, click on Next from the lower right corner to move on to the next page.
