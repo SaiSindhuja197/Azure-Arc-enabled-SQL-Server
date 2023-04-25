@@ -1,0 +1,44 @@
+# Exercise 1: Onboard SQL Server to Arc
+In the last excercise, you have seen how to enable security measures and monitoring for Arc enabled servers. In this exercise, you will onboard SQL Server to Azure Arc using Azure Portal and PowerShell commands.
+
+## Task 1: Login To Azure Portal
+
+1. Navigate back to Azure Portal which you have already opened in the previous exercises.
+      
+1. Click on the search blade at the top and search for ```SQL Server```, select **SQL Server - Azure Arc**.
+ 
+   ![](.././media/sqlserver.png "sqlsearch")
+   
+1. Click on the **Add** button to create the **SQL Server- Azure Arc**. 
+ 
+   ![](.././media/ss2.png "sqlsearch")
+   
+1. In Adding existing SQL Servers instances page, Click on **Connect Servers**.
+
+   ![](.././media/ss3.png "sqlsearch")
+   
+1. You will now see the prerequisite page. You can explore the page and then click on the **Next: Server details** option.
+    
+   > **Note**: We have already completed the prerequisite part for you. 
+    
+   ![](.././media/presql.png "sqlsearch")
+   
+1. On the **Server Details** blade, enter the below details.
+ 
+   - Subscription: Leave default
+   - Resource group: Select **azure-arc** from dropdown list.
+   - Region: Select same region as the Resource group.
+   - Operating Systems: Select **Windows**.
+   - License Type: Select **Paid - Standard or Enterprise edition license with Software Assurance or SQL Subscription**.
+
+     Now, click on the **Next:Tags** button.
+   
+   ![](.././media/H1E3T1S6.png "sqlsearch")
+   
+1. Leave the default for tags blade and click on **Next: Run Script** button.
+ 
+1. On the **Script** blade, explore the given script. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.
+ 
+   > **Note** : Please **skip the script download** from here by clicking on ```X``` at the top right as we have **already downloaded** this script inside the Lab VM for you.
+    
+   ![](.././media/runsqlv2.png "sqlsearch")
