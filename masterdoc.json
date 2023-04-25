@@ -3,16 +3,16 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/getstartpage.md?token=GHSAT0AAAAAABZCU7D4UN7T6DBQ7JBAN2Y4ZCHPBQQ",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/getstartpage.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/01-Arc-enabled-SQL-Server.md?token=GHSAT0AAAAAABZCU7D4XNWGUX4R2KPTUBRWZCH2YOA",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/01-Arc-enabled-SQL-Server.md",
       "Order": 2
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/02-Single-Pane-of-Glass-Dashboard.md?token=GHSAT0AAAAAABZCU7D4OEBPO6BIQJFHWCLKZCH6POA",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/02-Single-Pane-of-Glass-Dashboard.md",
       "Order": 3
-    },
+    }
   ]
 } ]
