@@ -1,0 +1,14 @@
+[ {
+  "Name": "Azure-Arc-enabled-SQL-Server",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/getstartpage.md?token=GHSAT0AAAAAABZCU7D4UN7T6DBQ7JBAN2Y4ZCHPBQQ",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-DevOps-with-GitHub-V2/prod/Hands-on%20lab/abstract.md",
+      "Order": 2
+    }
+  ]
+} ]
