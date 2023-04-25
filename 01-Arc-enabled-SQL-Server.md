@@ -106,7 +106,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
       ![](media/Ex1-Task2-Step8.png)
 
-1. In Are you trying to sign in to Microsoft Azure CLI?, click on **Contine**.
+1. In Are you trying to sign in to Microsoft Azure CLI?, click on **Continue**, and minimize the Browser window.
 
       ![](media/Ex1-Task2-Step9.png)
 
