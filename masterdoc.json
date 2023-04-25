@@ -9,6 +9,10 @@
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/01-Arc-enabled-SQL-Server.md?token=GHSAT0AAAAAABZCU7D4XNWGUX4R2KPTUBRWZCH2YOA",
       "Order": 2
-    }
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/02-Single-Pane-of-Glass-Dashboard.md?token=GHSAT0AAAAAABZCU7D4OEBPO6BIQJFHWCLKZCH6POA",
+      "Order": 3
+    },
   ]
 } ]
