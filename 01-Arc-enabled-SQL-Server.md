@@ -62,7 +62,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
     
 1. On the **Server Details** blade, enter the details below. 
   
-   - Subscription: Leave the default- Resource group: Select **sql-arc-**<inject key="DeploymentID/Suffix" enableCopy="false" />**** from dropdown list. 
+   - Subscription: Leave the default- Resource group: Select **sql-arc** from dropdown list. 
    - Region: Select the same region as the Resource group. 
    - Operating Systems: Select **Windows**. 
    - License Type: Select **Paid - Standard or Enterprise edition license with Software Assurance or SQL Subscription**. 
