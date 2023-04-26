@@ -2,7 +2,7 @@
  
 In this exercise, you will onboard SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
  
-## Task 1: Login To Azure Portal in SQL Server via Hyper-V Manager 
+## Task 1: Login to Azure Portal in SQL Server via Hyper-V Manager 
  
 1. From the start menu of the LAB VM, search for **Hyper-V Manager**. 
  
@@ -101,7 +101,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
       ![](media/Ex1-Task2-Step6.png) 
  
-1. To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the **authenticate code** and click on **Next**.  
+1. To sign in, use a web browser to open the page **https://microsoft.com/devicelogin** and enter the **authenticate code** and click on **Next**.  
  
       ![](media/Ex1-Task2-Step7.png) 
   
@@ -125,4 +125,4 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
    ![](media/Ex1-Task2-Step12.png)    
     
-1. Now, click on Next from the lower right corner to move on to the next page. 
+1. Now, click on Next from the lower right corner to move on to the next page.
