@@ -38,7 +38,7 @@
      
     ![](media/Ex2-Task1-Step9b.png)  
      
-6. Copy the SQL query from the **Servers** file, and overwrite the sample query with the Servers query. 
+6. Copy the SQL query from the **Servers** file, and overwrite the sample query with the Servers query in Dashboard query section. 
  
     ![](media/Ex2-Task1-Step10.png)  
      
@@ -52,7 +52,7 @@
      
 9. Open the **Databases** script file by right-clicking on the file, select **Open With**, and then select **Notepad**. 
  
-10. Copy the SQL query from the **Databases** file and overwrite the sample query with the Servers query. 
+10. Copy the SQL query from the **Databases** file and overwrite the sample query with the Servers query in Dashboard query section. 
  
 11. Click on **Run Query**, You should see something like the below with the SQL Servers you installed the **Azure Arc SQL Agent database** as well as **Azure SQL Servers base** running in Azure and update the tile in the dashboard by selecting **Update pinned part on dashboard**. 
      
@@ -74,7 +74,7 @@
    
 5. Open the **Server by location Chart** script file by right-clicking on the file, select **Open With**, and then select **Notepad**. 
       
-6. Copy the SQL query in **Server by location Chart** file, overwrite the sample query with the Servers query.  
+6. Copy the SQL query from the **Server by location Chart** file, overwrite the sample query with the Servers query in Dashboard query section.  
  
 7. Click on **Run Query** and update the tile in the dashboard by selecting **Update pinned part on dashboard**. 
      
