@@ -31,10 +31,14 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 1. In **sqlvm** select chrome browser and navigate to [https://portal.azure.com/](https://portal.azure.com/)       
  
 1. On the **Sign into Microsoft Azure** tab, you will see the login prompt. Enter the following **Email/Username** and then click on **Next**.  
-   * Email/Username: <inject key="AzureAdUserEmail"></inject> 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+      ![](media/getstartpage04.png "Enter Email")
     
 1. Now, enter the **Password** which you have already received for the above account. 
       * Password: <inject key="AzureAdUserPassword"></inject> 
+
+         ![](media/getstartpage05.png "Enter Password")
        
 1. If you see the pop-up **Stay Signed in?**, click No 
        
