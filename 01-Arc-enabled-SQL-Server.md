@@ -1,4 +1,4 @@
-# Hands-On-Lab: Azure Arc enabled SQL Server 
+# Exercise 1: Onboard the On-prem SQLServer to Azure Arc enabled SQL Server 
  
 In this exercise, you will onboard SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
  
