@@ -87,3 +87,6 @@
     ![](media/Ex2-Task3-Step8b.png) 
      
     ![](media/Ex2-Task3-Step8c.png)   
+
+9. This repo [https://azure.github.io/az-hop/user_guide/files.html](https://github.com/markm555/SQLSPOG) contains all the scripts. The scripts are regularly updated.
+
