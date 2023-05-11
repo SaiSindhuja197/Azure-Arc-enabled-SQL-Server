@@ -26,13 +26,13 @@
  
     ![](media/Ex2-Task1-Step6.png)  
      
- 3. Minimize the Azure Portal Browser window. 
+3. Minimize the Azure Portal Browser window. 
   
- 4. From LAB VM, open **File Manager**, navigate to `C:\LabFiles\Azure-Arc-enabled-SQL-Server-main\lab-files`. 
+4. From LAB VM, open **File Manager**, navigate to `C:\LabFiles\Azure-Arc-enabled-SQL-Server-main\lab-files`. 
   
     ![](media/Ex2-Task1-Step8.png)  
   
- 5. Open the **Servers** script file by right-clicking on the file, select **Open With**, and then select **Notepad**. 
+5. Open the **Servers** script file by right-clicking on the file, select **Open With**, and then select **Notepad**. 
  
     ![](media/Ex2-Task1-Step9a.png)  
      
