@@ -323,4 +323,4 @@ resources
 
 The Output looks as shown in the below screenshot:
 
-![Output of SQL servers with AWs and GCP](.media/gcp-aws-output.png)
+![Output of SQL servers with AWs and GCP](media/gcp-aws-output.png)
