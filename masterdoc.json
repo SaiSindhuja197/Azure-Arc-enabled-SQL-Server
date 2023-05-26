@@ -13,6 +13,10 @@
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/02-Single-Pane-of-Glass-Dashboard.md",
       "Order": 3
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/03-SQL-servers-GCP-AWS.md",
+      "Order": 4
     }
   ]
 } ]
