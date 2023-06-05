@@ -4,10 +4,6 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
 ## Task 1: Login to Azure Portal in SQL Server via Hyper-V Manager 
 
-1. You can see a virtual machine desktop 💻 (**LABVM**) is loaded on the left side in your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
-
-   ![](media/sqlarcLABVM.png) 
-
 1. Click on the search blade at the top and search for ```SQL Server```, select **SQL Server - Azure Arc**. 
   
    ![](media/EX1-Task1-Step2.png) 
