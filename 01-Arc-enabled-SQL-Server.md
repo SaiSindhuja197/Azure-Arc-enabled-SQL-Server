@@ -51,7 +51,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
       ![](media/EX1-T1-S1.png "search hyperv") 
  
-1. Then, you need to Select LABVM-<inject key="Deployment ID/Suffix" enableCopy="false"/> to connect with the Local Hyper-V server. 
+1. Then, you need to Select LABVM-<inject key="Deployment ID" enableCopy="false"/> to connect with the Local Hyper-V server. 
  
       ![](media/EX1-T1-S2.png "select server") 
  
