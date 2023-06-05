@@ -3,48 +3,14 @@
 In this exercise, you will onboard SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
  
 ## Task 1: Login to Azure Portal in SQL Server via Hyper-V Manager 
- 
-1. From the start menu of the LAB VM, search for **Hyper-V Manager**. 
- 
-      ![](media/EX1-T1-S1.png "search hyperv") 
- 
-1. Then, you need to Select LABVM-<inject key="DeploymentID/Suffix" enableCopy="false"/> to connect with the Local Hyper-V server. 
- 
-      ![](media/EX1-T1-S2.png "select server") 
- 
-1. On the Hyper-V manager, you will find one guest virtual machine **sqlvm**. 
- 
-      ![](media/EX1-T1-S3.png "select VM") 
-       
-1. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
- 
-      ![](media/EX1-T1-S4.png "open VM")  
- 
-1. Connect to sqlvm box, and then click on **Connect** button. 
- 
-      ![](media/EX1-T1-S5.png "open VM") 
- 
-1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm window size as per your convenience. 
- 
-      ![](media/EX1-T1-S6.png "open VM") 
-       
-1. In **sqlvm** select chrome browser and navigate to [https://portal.azure.com/](https://portal.azure.com/)       
- 
-1. On the **Sign into Microsoft Azure** tab, you will see the login prompt. Enter the following **Email/Username** and then click on **Next**.  
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-      ![](media/getstartpage04.png "Enter Email")
-    
-1. Now, enter the **Password** which you have already received for the above account. 
-      * Password: <inject key="AzureAdUserPassword"></inject> 
+1. You can see a virtual machine desktop 💻 (**LABVM**) is loaded on the left side in your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
 
-         ![](media/getstartpage05.png "Enter Password")
-       
-1. If you see the pop-up **Stay Signed in?**, click No 
-       
+   ![](media/sqlarcLABVM.png) 
+
 1. Click on the search blade at the top and search for ```SQL Server```, select **SQL Server - Azure Arc**. 
   
-   ![](media/EX1-Task1-Step2.png ) 
+   ![](media/EX1-Task1-Step2.png) 
     
 1. Click on the **Add** button to create the **SQL Server- Azure Arc**.  
   
@@ -78,11 +44,35 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 1. On the **Script** blade, explore the given script, copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
        
       ![](media/EX1-Task1-Step8n.png) 
-    
+
+1. Minimize the Browser window.  
+
+1. In the **LABVM**, open the **Start menu** and search for **Hyper-V**. Select **Hyper-V Manager**. 
+ 
+      ![](media/EX1-T1-S1.png "search hyperv") 
+ 
+1. Then, you need to Select LABVM-<inject key="Deployment ID/Suffix" enableCopy="false"/> to connect with the Local Hyper-V server. 
+ 
+      ![](media/EX1-T1-S2.png "select server") 
+ 
+1. On the Hyper-V manager, you will find one guest virtual machine **sqlvm**. 
+ 
+      ![](media/EX1-T1-S3.png "select VM") 
+       
+1. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
+ 
+      ![](media/EX1-T1-S4.png "open VM")  
+ 
+1. Connect to sqlvm box, and then click on **Connect** button. 
+ 
+      ![](media/EX1-T1-S5.png "open VM") 
+ 
+1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm window size as per your convenience. 
+ 
+      ![](media/EX1-T1-S6.png "open VM") 
+             
 ## Task 2: Register Azure Arc-enabled SQL Server. 
- 
-1. Minimize the Azure Portal Browser window.  
- 
+  
 1. From the start menu of the LAB VM, search for **PowerShell**, and select **Windows PowerShell ISE**. 
   
    ![](media/Ex1-Task2-Step2.png) 
@@ -91,44 +81,55 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
   
     ![](media/Ex1-Task2-Step3.png)        
  
-1. The script you copied on **step 17 of task 1** must be pasted in **Script Pane** and clicked on **Run Script**. 
+1. The script you copied on **step 8 of task 1** must be pasted in **Script Pane** and clicked on **Run Script**. 
  
-      ![](media/Ex1-Task2-Step4.png)  
+    ![](media/Ex1-Task2-Step4.png)  
       
 1. After running the command, you will see some outputs which show that the script started running. 
    
-   ![](media/Ex1-Task2-Step5.png) 
+    ![](media/Ex1-Task2-Step5.png) 
  
 1. Copy the **authenticate code**. 
  
-      ![](media/Ex1-Task2-Step6.png) 
+    ![](media/Ex1-Task2-Step6.png) 
  
 1. To sign in, use a web browser to open the page **https://microsoft.com/devicelogin** and enter the **authenticate code** and click on **Next**.  
  
-      ![](media/Ex1-Task2-Step7.png) 
+    ![](media/Ex1-Task2-Step7.png) 
   
-1. Once you in **Pick an account**, select your account. 
- 
-      ![](media/Ex1-Task2-Step8.png) 
- 
+1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**‭. Enter the following **Email/Username** and then click on **Next**.  
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+       ![](media/sqlarclogin.png "Enter Email")
+    
+1. Now, enter the **Password** which you have already received for the above account. 
+      
+   * Password: <inject key="AzureAdUserPassword"></inject> 
+
+      ![](media/sqlarcpassword.png "Enter Password")
+      
 1. In Are you trying to sign into Microsoft Azure CLI? click on **Continue** and minimize the Browser window. 
  
-      ![](media/Ex1-Task2-Step9.png) 
+    ![](media/Ex1-Task2-Step9.png) 
  
 1. In 5-10 minutes, you will see that the script execution is completed. Make sure that you see the following output: ```SQL Server is successfully installed``` 
  
-   ![](media/Ex1-Task2-Step10.png) 
-   
+    ![](media/Ex1-Task2-Step10.png) 
+
+1. Minimize the sqlvm on LABVM-<inject key="Deployment ID" enableCopy="false"/>    
+
+    ![](media/sqlvm-min.png) 
+
 1. Bring back the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step. 
  
-   ![](media/Ex1-Task2-Step11.png) 
+    ![](media/Ex1-Task2-Step11.png) 
    
 1. Here you can explore the Azure Arc | SQL Servers blade, click on **SQL Servres** **(1)** under Infrastructure from left-menu. By selecting **+ Add** **(2)** option from top menu you can onboard SQL Servers to Azure. You can enable the **Automatic Arc enabled SQL Server Registration** **(3)** which will help in enabling automatic registration will discover and register instances of SQL Server 2012 or newer that are installed on Arc-enabled servers including instances that are installed in the future. You can run SQL queries by clicking on **Open query** **(4)** with ad-hoc method to access the data of a remote server. At last you can see the SQL Servers that are onboarded to Azure Arc **(5)** as shown in the below screenshot.
 
-   ![](media/sql-arc-overview.png)
+    ![](media/sql-arc-overview.png)
 
 1. Select the **SQLVM** resource and now you can see the dashboard of **SQLVM** SQL Server -Azure Arc from Azure Portal. 
  
-   ![](media/Ex1-Task2-Step12.png)    
+    ![](media/Ex1-Task2-Step12.png)    
     
 1. Now, click on Next from the lower right corner to move on to the next page.
