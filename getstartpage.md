@@ -2,9 +2,9 @@
 
 ## Getting Started with Lab
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the lab guide to switch to different exercises of the lab guide.
+1. You can see a virtual machine desktop 💻 (**LABVM**) is loaded on the left side in your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
 
-   ![](media/getstartpage01.png)
+   ![](media/sqlarcLABVM.png) 
    
    >Note: If you see any PowerShell windows running in your VM, please do not close that as it's setting up some configurations inside the environment.
  
