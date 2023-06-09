@@ -18,7 +18,7 @@
  
 ## Task 2: Adding Resource Graph Grid Tiles 
  
-1. On the Right side of the custom dashboard page, under **Tile Gallery** search for **Resource graph grid tile (1)**, select **Resource graph grid tile (2)**, click on the **Add ( button, and click on **Save (4)**. 
+1. On the Right side of the custom dashboard page, under **Tile Gallery** search for **Resource graph grid tile (1)**, select **Resource graph grid tile (2)**, click on the **Add (3)** button, and click on **Save (4)**. 
  
     ![](media/Ex2-Task1-Step5.png) 
      
