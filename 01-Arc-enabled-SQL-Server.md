@@ -58,6 +58,8 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 1. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
  
       ![](media/EX1-T1-S4.png "open VM")  
+
+   >**Note**: Please start the **sqlvm** if it is stopped state.
  
 1. Connect to sqlvm box, and then click on **Connect** button. 
  

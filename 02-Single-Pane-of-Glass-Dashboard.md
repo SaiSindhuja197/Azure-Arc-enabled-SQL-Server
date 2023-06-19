@@ -46,7 +46,7 @@
      
     ![](media/Ex2-Task1-Step11.png)  
      
-8. In Dashboard page, click on **Edit**, and repeat the steps from **Step 5** to **step 9**. 
+8. In Dashboard page, click on **Edit**, again follow **Step 1** to **step 4**, and continue from **step 9**.
  
      ![](media/Ex2-Task1-Step12.png)  
      
