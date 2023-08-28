@@ -6,5 +6,5 @@ Select the **Deploy to Azure** button below to open the Azure portal and launch 
 
   Deploy the Lab to your Subscription: [![Button to deploy the LabVM template to Azure.](https://aka.ms/deploytoazurebutton "Deploy the LabVM template to Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fexperienceazure.blob.core.windows.net%2Ftemplates%2Fazure-arc-sql-server%2Fdeploy-01.json)
 
-   Labguide Preview:  [![Labguide preview.]](https://experience.cloudlabs.ai/#/labguidepreview/50708dcb-95e3-4f9d-ae36-bfd3382a1cc0)
+   Labguide Preview:  [[Labguide preview.]](https://experience.cloudlabs.ai/#/labguidepreview/50708dcb-95e3-4f9d-ae36-bfd3382a1cc0)
 
