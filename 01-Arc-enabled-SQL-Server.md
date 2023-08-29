@@ -10,7 +10,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
     
 1. Click on the **Add** button to create the **SQL Server- Azure Arc**.  
   
-   ![](media/EX1-Task1-Step3.png) 
+   ![](media/az-arcv-m.png) 
     
 1. In the Adding existing SQL Servers instances page, click on **Connect Servers**. 
  
