@@ -8,11 +8,11 @@
 
     ![](media/Ex2-Task1-Step2.png)  
  
-3. In Dashboard page, click **+ Create**. 
+3. In the Dashboard page, click **+ Create**. 
  
     ![](media/Ex2-Task1-Step3.png) 
      
-4. In Create a dashboard page, select **Create a custom dashboard**. 
+4. In the Create a dashboard page, select **Create a custom dashboard**. 
  
     ![](media/Ex2-Task1-Step4.png) 
  
@@ -38,7 +38,7 @@
      
     ![](media/Ex2-Task1-Step9b.png)  
      
-6. Copy the SQL query from the **Servers** file, and overwrite the sample query with the Servers query in Dashboard query section. 
+6. Copy the SQL query from the **Servers** file, and overwrite the sample query with the Servers query in the Dashboard query section. 
  
     ![](media/Ex2-Task1-Step10.png)  
      
@@ -46,13 +46,13 @@
      
     ![](media/Ex2-Task1-Step11.png)  
      
-8. In Dashboard page, click on **Edit**, again follow **Step 1** to **step 4**, and continue from **step 9**.
+8. In Dashboard page, click on **Edit**, go back and follow **Step 1** to **step 4**, and continue from **step 9**.
  
      ![](media/Ex2-Task1-Step12.png)  
      
 9. Open the **Databases** script file by right-clicking on the file, select **Open With**, and then select **Notepad**. 
  
-10. Copy the SQL query from the **Databases** file and overwrite the sample query with the Servers query in Dashboard query section. 
+10. Copy the SQL query from the **Databases** file and overwrite the sample query with the Servers query in the Dashboard query section. 
  
 11. Click on **Run Query**, You should see something like the below with the SQL Servers you installed the **Azure Arc SQL Agent database** as well as **Azure SQL Servers base** running in Azure and update the tile in the dashboard by selecting **Update pinned part on dashboard**. 
      
@@ -74,7 +74,7 @@
    
 5. Open the **Server by location Chart** script file by right-clicking on the file, select **Open With**, and then select **Notepad**. 
       
-6. Copy the SQL query from the **Server by location Chart** file, overwrite the sample query with the Servers query in Dashboard query section.  
+6. Copy the SQL query from the **Server by location Chart** file, and overwrite the sample query with the Servers query in the Dashboard query section.  
  
 7. Click on **Run Query** and update the tile in the dashboard by selecting **Update pinned part on dashboard**. 
      
