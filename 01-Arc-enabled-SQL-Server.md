@@ -51,7 +51,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
       ![](media/EX1-T1-S2.png "select server") 
  
-1. On the Hyper-V manager, you will find multiple guest virtual machines. 
+1. On the Hyper-V manager, you will find multiple guest virtual machines available. 
  
       ![](media/number-of-hyper-v.png "select VM") 
        
