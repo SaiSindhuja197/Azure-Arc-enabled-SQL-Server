@@ -51,7 +51,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
       ![](media/EX1-T1-S2.png "select server") 
  
-1. On the Hyper-V manager, you will find multiple guest virtual machines. 
+1. On the Hyper-V manager, you will find multiple guest virtual machines available. 
  
       ![](media/number-of-hyper-v.png "select VM") 
        
@@ -118,29 +118,32 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
     ![](media/min-sqlvm2012.png)
 
-1. Bring back the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM2012** that we just created using the PowerShell script in the previous step. 
+1. Navigate back to the browser tab where the Azure Portal is open and search for **SQL Server - Azure Arc**. If you are already on the **SQL Server - Azure Arc** page, you will have to the Refresh tab. On that page, you will see one resource **SQLVM2012** that we just created using the PowerShell script in the previous step. 
  
     ![](media/arc-sqlvm2012.png) 
    
-1. Here you can explore the **Azure Arc | SQL Servers blade**, click on **SQL Servres** **(1)** under Infrastructure from left-menu and selecting the **sqlvm2012_SQLEXPRESS** **(2)** SQL Server instances. 
-    ![](media/sql-arc-overview.png)
+1. Click on **SQL Servres instances** **(1)** under **Data Service** section from left-menu and select the **sqlvm2012_SQLEXPRESS** **(2)** instance. 
 
-1. Once you are in **sqlvm2012 | SQL Server Configuration** blade, click on **N/A** under Host ESU status. 
+   ![](media/sql-vm-12-sql.png)
+
+1. Once you are in **sqlvm2012_SQLEXPRESS** instance, click on **N/A** under Host ESU status. 
  
     ![](media/Host-ESU-status.png)    
 
-1. In **SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**,click on **Save** **(3)** button, and click on **sqlvm2012_SQLEXPRESS** **(4)** under SQL Server Instances.
+1. In **sqlvm2012 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and click on **sqlvm2012_SQLEXPRESS** **(4)** under SQL Server Instances.
 
     ![](media/sql-server-configration.png)
 
-      **Note**: SQL Server Configuration Host license type change has been accepted. Please wait at least 5 mins to push new values.
+      **Note**: SQL Server Configuration Host license type change will take more than 5 mins. Please wait at least 5 mins to view new values.
 
-1. Once you are in **SQL Server - Azure Arc** blade, click on **Extended Security Updates** here we can check **Available Security Updates** for SQL Server 2012.
+1. Once you are in **SQL Server - Azure Arc** blade, click on **Extended Security Updates** under **Settigs** section from left-menu here we can check **Available Security Updates** for SQL Server 2012.
 
     ![](media/Available-Security-Updates.png)
 
-1. Click on **Best practices assessment** **(1)**, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Run assessment**  **(3)**.      
-
+1. Click on **Best practices assessment** **(1)** under **Settigs** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Run assessment**  **(3)**.
+   
     ![](media/Best-practices-assessment.png)
+
+   > **Note**: Please wait while assessment settings are being refreshed. It will initiate the deployments.   
 
 1. Now, click on Next from the lower right corner to move on to the next page.      
