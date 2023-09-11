@@ -51,13 +51,13 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
       ![](media/EX1-T1-S2.png "select server") 
  
-1. On the Hyper-V manager, you will find one guest virtual machine **sqlvm**. 
+1. On the Hyper-V manager, you will find multiple guest virtual machines. 
  
-      ![](media/EX1-T1-S3.png "select VM") 
+      ![](media/number-of-hyper-v.png "select VM") 
        
 1. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
  
-      ![](media/EX1-T1-S4.png "open VM")  
+      ![](media/sql-vm.png "open VM")  
 
    >**Note**: Please start the **sqlvm** if it is stopped state.
  
@@ -65,7 +65,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
       ![](media/EX1-T1-S5.png "open VM") 
  
-1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm window size as per your convenience. 
+1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm window size at your convenience. 
  
       ![](media/EX1-T1-S6.png "open VM") 
              
