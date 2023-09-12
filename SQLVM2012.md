@@ -67,13 +67,13 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
 1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm2012 window size at your convenience. 
  
-      ![](media/EX1-T1-S6.png "open VM")
+      ![](media/sqlv-logscreen.png "open VM")
 
 ## Task 2: Register Azure Arc-enabled SQL Server. 
   
-1. From the start menu of the SQL VM, search for **PowerShell**, and select **Windows PowerShell ISE**. 
+1. From the Desktop open **Windows PowerShell ISE**. 
   
-   ![](media/Ex1-Task2-Step2.png) 
+   ![](media/sqlvm-powershell.png) 
    
 1. In Windows PowerShell ISE, click on **Show Script Pane**. 
   
