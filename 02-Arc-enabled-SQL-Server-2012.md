@@ -91,7 +91,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
     ![](media/Ex1-Task2-Step6.png) 
  
-1. In Hyper-v VM, use a web browser to open the page **https://microsoft.com/devicelogin**, enter the **authenticate code** and click on **Next**.  
+1. In Hyper-V VM, use a web browser to open the page **https://microsoft.com/devicelogin**, enter the **authenticate code** and click on **Next**.  
  
     ![](media/Ex1-Task2-Step7.png) 
   
@@ -128,6 +128,8 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
    ![](media/sql-vm-12-sql.png)
 
+   > **Note**: If you are not able to view **sqlvm2012_SQLEXPRESS** SQL Server instances wait for 5 minutes and keep refreshing the page.
+
 1. Once you are in **sqlvm2012_SQLEXPRESS** instance, click on **N/A** under Host ESU status. 
  
     ![](media/Host-ESU-status.png)    
@@ -148,7 +150,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
    > **Note**: Please wait while assessment settings are being refreshed. It will initiate and redirect to the deployments page.   
 
-1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc**. Once you are in **SQL2012VM_SQLEXPRESS | Best practices assessment** blade, click on **Run assessment**.
+1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page. Once you are in **SQL2012VM_SQLEXPRESS | Best practices assessment** blade, click on **Run assessment**.
 
     ![](media/BPA-run-assessment.png)
 
@@ -181,6 +183,6 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 1. Navigate to **SQL2012VM_SQLEXPRESS | Microsoft Defender for Cloud**, observe that the **Recommendations** and **Security incidents and alerts** are populated.
 
 
- **Note**: It might take up to 24 hours for **Recommendations** and **Security incidents and alerts** to populated.
+   >**Note**: It might take up to 24 hours for **Recommendations** and **Security incidents and alerts** to populated.
 
 1. Now, click on Next from the lower right corner to move on to the next page.      
