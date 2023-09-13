@@ -1,4 +1,4 @@
-# Exercise 3: Azure ARC Extended SQL server for GCP and AWS (Read-Only)
+# Exercise 4: Azure ARC Extended SQL server for GCP and AWS (Read-Only)
 
 ## Overview
 
