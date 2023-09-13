@@ -138,7 +138,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
     ![](media/sql-server-configration.png)
 
-      **Note**: SQL Server Configuration Host license type change will take more than 5 mins. Please wait at least 5 mins to view new values.
+      **Note**: SQL Server Configuration Host license type change will take more than 5 minutes. Please wait at least 5 minutes to view new values.
 
 1. Once you are in **SQL Server - Azure Arc** blade, click on **Extended Security Updates** under **Settigs** section from left-menu here we can check **Available Security Updates** for SQL Server 2012.
 
@@ -154,7 +154,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
     ![](media/BPA-run-assessment.png)
 
-1. Click on the **Refresh** button until assessment status changes to **Partially Succeeded**.
+1. Click on the **Refresh** button until assessment status changes to **Partially Succeeded**. It may take up to 5 minutes.
 
    ![](media/BPA-refresh.png)
 
