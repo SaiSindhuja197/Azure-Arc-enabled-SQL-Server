@@ -1,4 +1,4 @@
-# Exercise 3: Create a Single pane of glass managed solutions with Azure Arc 
+# Exercise 3: Create a Single pane of glass-managed solutions with Azure Arc 
  
 ## Task 1: Create a Single Pane of Glass Dashboard 
  
@@ -22,7 +22,7 @@
  
     ![](media/Ex2-Task1-Step5.png) 
      
-2. In Dashboard page, under **Resource graph grid tile** click on **Configure tile**. <br>
+2. In Dashboard page, under **Resource graph grid tile** click on **Configure tile**.
  
     ![](media/Ex2-Task1-Step6.png)  
      
