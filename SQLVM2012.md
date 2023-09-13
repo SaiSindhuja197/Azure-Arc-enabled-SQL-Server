@@ -67,13 +67,13 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
 1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm2012 window size at your convenience. 
  
-      ![](media/EX1-T1-S6.png "open VM")
+      ![](media/sqlv-logscreen.png "open VM")
 
 ## Task 2: Register Azure Arc-enabled SQL Server. 
   
-1. From the start menu of the SQL VM, search for **PowerShell**, and select **Windows PowerShell ISE**. 
+1. From the Desktop open **Windows PowerShell ISE**. 
   
-   ![](media/Ex1-Task2-Step2.png) 
+   ![](media/sqlvm-powershell.png) 
    
 1. In Windows PowerShell ISE, click on **Show Script Pane**. 
   
@@ -118,7 +118,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
     ![](media/min-sqlvm2012.png)
 
-1. Navigate back to the browser tab where the Azure Portal is open and search for **SQL Server - Azure Arc**. If you are already on the **SQL Server - Azure Arc** page, you will have to the Refresh tab. On that page, you will see one resource **SQLVM2012** that we just created using the PowerShell script in the previous step. 
+1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**. If you are already on the **SQL Server - Azure Arc** page, you will have to the Refresh tab. On that page, you will see one resource **SQLVM2012** that we just created using the PowerShell script in the previous step. 
  
     ![](media/arc-sqlvm2012.png) 
    
@@ -144,6 +144,39 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
    
     ![](media/Best-practices-assessment.png)
 
-   > **Note**: Please wait while assessment settings are being refreshed. It will initiate the deployments.   
+   > **Note**: Please wait while assessment settings are being refreshed. It will initiate and redirect to the deployments page.   
+
+1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc**. Once you are in **SQL2012VM_SQLEXPRESS | Best practices assessment** blade, click on **Run assessment**.
+
+    ![](media/BPA-run-assessment.png)
+
+1. Click on the **Refresh** button until assessment status changes to **Partially Succeeded**.
+
+   ![](media/BPA-refresh.png)
+
+1. Once the assessment results status changes to **Partially Succeeded**, click on the **start date** to view results. 
+
+   ![](media/BPA-select-assessmet-result.png)
+
+1. On the **SQL best practices assessment results** page you will able to view and explore the assessment result.
+
+   ![](media/BPA-select-assessmet-result.png)
+
+1. Navigate to the previous tab **SQL2012VM_SQLEXPRESS | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable Microsoft Defender for SQL** **(2)** button.
+
+   ![](media/sqlvm-defender-for-cloud.png)
+
+1. On **Microsoft Defender for Cloud** page, click on **Environment settings** **(1)** from the left menu and expand the **Tenant root group** **(2)**, click on **eclipse** **(3)** button next to your subscriptions, and click on **Edit settings** **(4)**.
+
+   ![](media/ms-defender-edit.png)
+
+1. On **Settings | Defender plans** page, set the toggle button next to **Databases** to **On** **(1)**, and click on **Save** **(2)**.
+
+   ![](media/enabling-database.png) 
+
+1. Navigate to **SQL2012VM_SQLEXPRESS | Microsoft Defender for Cloud**, observe that the **Recommendations** and **Security incidents and alerts** are populated.
+
+
+ **Note**: It might take up to 24 hours for **Recommendations** and **Security incidents and alerts** to populated.
 
 1. Now, click on Next from the lower right corner to move on to the next page.      
