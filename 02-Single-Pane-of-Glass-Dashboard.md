@@ -1,4 +1,4 @@
-# Exercise 2: Create a Single pane of glass managed solutions with Azure Arc 
+# Exercise 3: Create a Single pane of glass managed solutions with Azure Arc 
  
 ## Task 1: Create a Single Pane of Glass Dashboard 
  
