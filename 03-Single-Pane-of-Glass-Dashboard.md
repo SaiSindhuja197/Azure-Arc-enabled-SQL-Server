@@ -22,7 +22,7 @@
  
     ![](media/Ex2-Task1-Step5.png) 
      
-2. In Dashboard page, under **Resource graph grid tile** click on **Configure tile**. 
+2. In Dashboard page, under **Resource graph grid tile** click on **Configure tile**. <br>
  
     ![](media/Ex2-Task1-Step6.png)  
      
