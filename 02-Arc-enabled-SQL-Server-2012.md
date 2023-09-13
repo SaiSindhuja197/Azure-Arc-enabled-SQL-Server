@@ -2,7 +2,7 @@
  
 In this exercise, you will onboard SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
  
-## Task 1: Login to Azure Portal in SQL Server via Hyper-V Manager 
+## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
 
 1. In the Azure portal, click on the search blade at the top and search for ```SQL Server```. Then select **SQL Server - Azure Arc**. 
   
@@ -118,6 +118,8 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
     ![](media/min-sqlvm2012.png)
 
+### Task 3: Enable Best practices assessment  
+
 1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**. If you are already on the **SQL Server - Azure Arc** page, you will have to the Refresh tab. On that page, you will see one resource **SQLVM2012** that we just created using the PowerShell script in the previous step. 
  
     ![](media/arc-sqlvm2012.png) 
@@ -160,7 +162,9 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
 1. On the **SQL best practices assessment results** page you will able to view and explore the assessment result.
 
-   ![](media/BPA-select-assessmet-result.png)
+   ![](media/BPA-select-assessmet-output.png)
+
+### Task 4: Enable Microsoft Defender for SQL
 
 1. Navigate to the previous tab **SQL2012VM_SQLEXPRESS | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable Microsoft Defender for SQL** **(2)** button.
 
