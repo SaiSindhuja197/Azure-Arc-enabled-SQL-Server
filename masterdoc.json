@@ -11,12 +11,16 @@
       "Order": 2
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/02-Single-Pane-of-Glass-Dashboard.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/SQLVM2012.md",
       "Order": 3
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/03-SQL-servers-GCP-AWS.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/02-Single-Pane-of-Glass-Dashboard.md",
       "Order": 4
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/03-SQL-servers-GCP-AWS.md",
+      "Order": 5
     }
   ]
 } ]
