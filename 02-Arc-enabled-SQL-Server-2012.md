@@ -182,7 +182,8 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
 1. Navigate to **SQL2012VM_SQLEXPRESS | Microsoft Defender for Cloud**, observe that the **Recommendations** and **Security incidents and alerts** are populated.
 
+   ![](media/MDC-output.png)
 
-   >**Note**: It might take up to 24 hours for **Recommendations** and **Security incidents and alerts** to populated.
+   > **Note**: It might take up to 24 hours for **Recommendations** and **Security incidents and alerts** to populated.
 
 1. Now, click on Next from the lower right corner to move on to the next page.      
