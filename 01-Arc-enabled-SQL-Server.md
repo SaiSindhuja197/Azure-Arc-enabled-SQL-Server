@@ -122,7 +122,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
     ![](media/Ex1-Task2-Step11.png) 
    
-1. Here you can explore the Azure Arc | SQL Servers blade, click on **SQL Servres** **(1)** under Infrastructure from left-menu. By selecting the **+ Add** **(2)** option from the top menu you can onboard SQL Servers to Azure. You can enable the **Automatic Arc enabled SQL Server Registration** **(3)** which will help in enabling automatic registration will discover and register instances of SQL Server 2012 or newer that are installed on Arc-enabled servers including instances that are installed in the future. You can run SQL queries by clicking on **Open query** **(4)** with ad-hoc method to access the data of a remote server. At last, you can see the SQL Servers that are onboarded to Azure Arc **(5)** as shown in the below screenshot.
+1. Here you can explore the Azure Arc | SQL Servers blade, click on **SQL Servres instances** **(1)** under Infrastructure from left-menu. By selecting the **+ Add** **(2)** option from the top menu you can onboard SQL Servers to Azure. You can run SQL queries by clicking on **Open query** **(3)** with ad-hoc method to access the data of a remote server. At last, you can see the SQL Servers that are onboarded to Azure Arc **(4)** as shown in the below screenshot.
 
     ![](media/sql-arc-overview.png)
 
