@@ -28,7 +28,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
    - Resource group: Select **sql-arc** from dropdown list. 
    - Region: **<inject key="Region" enableCopy="false"/>**. 
    - Operating Systems: Select **Windows**. 
-   - Server Name: Enter **SQLVM2012**.
+   - Server Name: Enter **SQLVM2016**.
    - License Type: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. 
  
      Now, click on the **Next: Tags** button. 
@@ -55,11 +55,11 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
       ![](media/number-of-hyper-v.png "select VM") 
        
-1. Open **sqlvm2012** from the Hyper-V Manager by double clicking on **sqlvm2012**. 
+1. Open **sqlvm2016** from the Hyper-V Manager by double clicking on **sqlvm2016**. 
  
       ![](media/sql-vm-12.png "open VM")  
 
-   >**Note**: Please start the **sqlvm2012** if it is stopped state.
+   >**Note**: Please start the **sqlvm2016** if it is stopped state.
  
 1. Connect to the sqlvm2012 box, and then click on the **Connect** button. 
  
@@ -71,9 +71,9 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
 ## Task 2: Register Azure Arc-enabled SQL Server. 
   
-1. From the Desktop open **Windows PowerShell ISE**. 
+1. From the start menu of the sqlvm2016, search for **PowerShell**, and select **Windows PowerShell ISE**.
   
-   ![](media/sqlvm-powershell.png) 
+   ![](media/Ex1-Task2-Step2.png) 
    
 1. In Windows PowerShell ISE, click on **Show Script Pane**. 
   
@@ -114,51 +114,47 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
     ![](media/Ex1-Task2-Step10.png) 
 
-1. Minimize the sqlvm2012 on LABVM-<inject key="Deployment ID" enableCopy="false"/>    
+1. Minimize the sqlvm2016 on LABVM-<inject key="Deployment ID" enableCopy="false"/>    
 
     ![](media/min-sqlvm2012.png)
 
 ### Task 3: Enable Best practices assessment  
 
-1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**. If you are already on the **SQL Server - Azure Arc** page, you will have to the Refresh tab. On that page, you will see one resource **SQLVM2012** that we just created using the PowerShell script in the previous step. 
+1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**. If you are already on the **SQL Server - Azure Arc** page, you will have to the Refresh tab. On that page, you will see one resource **SQLVM2016** that we just created using the PowerShell script in the previous step. 
  
     ![](media/arc-sqlvm2012.png) 
    
-1. Click on **SQL Servres instances** **(1)** under **Data Service** section from left-menu and select the **sqlvm2012_SQLEXPRESS** **(2)** instance. 
+1. Click on **SQL Servres instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016** **(2)** instance. 
 
    ![](media/sql-vm-12-sql.png)
 
-   > **Note**: If you are not able to view **sqlvm2012_SQLEXPRESS** SQL Server instances wait for 5 minutes and keep refreshing the page.
+   > **Note**: If you are not able to view **SQLVM2016** SQL Server instances wait for 5 minutes and keep refreshing the page.
 
-1. Once you are in **sqlvm2012_SQLEXPRESS** instance, click on **N/A** under Host ESU status. 
+1. Once you are in **SQLVM2016** instance, click on **N/A** under ESU Subscription. 
  
     ![](media/Host-ESU-status.png)    
 
-1. In **sqlvm2012 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and click on **sqlvm2012_SQLEXPRESS** **(4)** under SQL Server Instances.
+1. In **SQLVM2016 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and click on **SQLVM2016** **(4)** under SQL Server Instances.
 
     ![](media/sql-server-configration.png)
 
       **Note**: SQL Server Configuration Host license type change will take more than 5 minutes. Please wait at least 5 minutes to view new values.
 
-1. Once you are in **SQL Server - Azure Arc** blade, click on **Extended Security Updates** under **Settigs** section from left-menu here we can check **Available Security Updates** for SQL Server 2012.
-
-    ![](media/Available-Security-Updates.png)
-
-1. Click on **Best practices assessment** **(1)** under **Settigs** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Run assessment**  **(3)**.
+1. Click on **Best practices assessment** **(1)** under **Settigs** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Enable assessment**  **(3)**.
    
     ![](media/Best-practices-assessment.png)
-
+    ![](media/Best-practices-assessment1.png)
    > **Note**: Please wait while assessment settings are being refreshed. It will initiate and redirect to the deployments page.   
 
-1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page. Once you are in **SQL2012VM_SQLEXPRESS | Best practices assessment** blade, click on **Run assessment**.
+1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page. Once you are in **SQLVM2016 | Best practices assessment** blade, click on **Run assessment**.
 
-    ![](media/BPA-run-assessment.png)
+    ![](media/Best-practices-assessment1.png)
 
 1. Click on the **Refresh** button until assessment status changes to **Partially Succeeded**. It may take up to 5 minutes.
 
    ![](media/BPA-refresh.png)
 
-1. Once the assessment results status changes to **Partially Succeeded**, click on the **start date** to view results. 
+1. Once the assessment results status changes to **Partially Succeeded** or **Succeeded** , click on the **start date** to view results. 
 
    ![](media/BPA-select-assessmet-result.png)
 
@@ -168,7 +164,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
 ### Task 4: Enable Microsoft Defender for SQL
 
-1. Navigate to the previous tab **SQL2012VM_SQLEXPRESS | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable Microsoft Defender for SQL** **(2)** button.
+1. Navigate to the previous tab **SQL2016 | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable** **(2)** button.
 
    ![](media/sqlvm-defender-for-cloud.png)
 
@@ -180,7 +176,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
    ![](media/enabling-database.png) 
 
-1. Navigate to **SQL2012VM_SQLEXPRESS | Microsoft Defender for Cloud**, observe that the **Recommendations** and **Security incidents and alerts** are populated.
+1. Navigate to **SQL2016 | Microsoft Defender for Cloud**, observe that the **Recommendations** and **Security incidents and alerts** are populated.
 
    ![](media/MDC-output.png)
 

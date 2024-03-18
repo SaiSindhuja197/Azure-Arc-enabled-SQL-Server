@@ -76,7 +76,7 @@
       
 6. Copy the SQL query from the **Server by location Chart** file, and overwrite the sample query with the Servers query in the Dashboard query section.  
  
-7. Click on **Run Query** and update the tile in the dashboard by selecting **Update pinned part on dashboard**. 
+7. Click on **Run Query** and update the tile to **Charts (1)** and select **Bar chart (2)** in the dashboard by selecting **Update pinned part on dashboard (3)**. 
      
     ![](media/Ex2-Task3-Step7.png) 
  
