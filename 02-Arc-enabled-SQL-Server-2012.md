@@ -47,9 +47,9 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
       ![](media/EX1-T1-S1.png "search hyperv") 
  
-1. Then, you need to Select LABVM-<inject key="Deployment ID" enableCopy="false"/> to connect with the Local Hyper-V server. 
+1. Then, you need to Select **SQL-ARC** to connect with the Local Hyper-V server. 
  
-      ![](media/EX1-T1-S2.png "select server") 
+      ![](media/hyperv-sql-arc.png "select server") 
  
 1. On the Hyper-V manager, you will find multiple guest virtual machines available. 
  
@@ -114,7 +114,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
     ![](media/Ex1-Task2-Step10.png) 
 
-1. Minimize the sqlvm2016 on LABVM-<inject key="Deployment ID" enableCopy="false"/>    
+1. Minimize the sqlvm2016 on SQL-ARC VM.   
 
     ![](media/min-sqlvm2012.png)
 
@@ -143,7 +143,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 1. Click on **Best practices assessment** **(1)** under **Settigs** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Enable assessment**  **(3)**.
    
     ![](media/Best-practices-assessment.png)
-    ![](media/Best-practices-assessment1.png)
+   
    > **Note**: Please wait while assessment settings are being refreshed. It will initiate and redirect to the deployments page.   
 
 1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page. Once you are in **SQLVM2016 | Best practices assessment** blade, click on **Run assessment**.
@@ -167,6 +167,8 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 1. Navigate to the previous tab **SQL2016 | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable** **(2)** button.
 
    ![](media/sqlvm-defender-for-cloud.png)
+
+   > **Note:** Skip this step if Microsoft Defender for Cloud is already enabled for your subscription.
 
 1. On **Microsoft Defender for Cloud** page, click on **Environment settings** **(1)** from the left menu and expand the **Tenant root group** **(2)**, click on **eclipse** **(3)** button next to your subscriptions, and click on **Edit settings** **(4)**.
 
