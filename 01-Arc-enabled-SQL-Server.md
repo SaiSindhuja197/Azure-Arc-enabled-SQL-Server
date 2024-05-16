@@ -47,9 +47,9 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
       ![](media/EX1-T1-S1.png "search hyperv") 
  
-1. Then, you need to Select LABVM-<inject key="Deployment ID" enableCopy="false"/> to connect with the Local Hyper-V server. 
+1. Then, you need to Select **SQL-ARC** VM to connect with the Local Hyper-V server. 
  
-      ![](media/EX1-T1-S2.png "select server") 
+      ![](media/hyperv-sql-arc.png "select server") 
  
 1. On the Hyper-V manager, you will find multiple guest virtual machines available. 
  
@@ -57,7 +57,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
        
 1. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
  
-      ![](media/sql-vm.png "open VM")  
+      ![](media/sql-vm01.png "open VM")  
 
    >**Note**: Please start the **sqlvm** if it is stopped state.
  
@@ -114,7 +114,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
     ![](media/Ex1-Task2-Step10.png) 
 
-1. Minimize the sqlvm on LABVM-<inject key="Deployment ID" enableCopy="false"/>    
+1. Minimize the sqlvm on SQL-ARC VM.   
 
     ![](media/sqlvm-min.png) 
 
