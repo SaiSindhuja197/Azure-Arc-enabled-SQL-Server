@@ -120,9 +120,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
 ### Task 3: Enable Best practices assessment  
 
-1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**. If you are already on the **SQL Server - Azure Arc** page, you will have to the Refresh tab. On that page, you will see one resource **SQLVM2016** that we just created using the PowerShell script in the previous step. 
- 
-    ![](media/arc-sqlvm2012.png) 
+1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**.
    
 1. Click on **SQL Servres instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016** **(2)** instance. 
 
