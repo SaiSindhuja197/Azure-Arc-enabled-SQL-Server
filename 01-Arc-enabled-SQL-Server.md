@@ -71,7 +71,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
              
 ## Task 2: Register Azure Arc-enabled SQL Server. 
   
-1. From the start menu of the SQL VM, search for **PowerShell**, and right click on **Windows PowerShell ISE** and select **Run as Administrator**. 
+1. From the start menu of the SQL VM, search for **PowerShell**, right-click on **Windows PowerShell ISE** and select **Run as Administrator**. 
   
    ![](media/Ex1-Task2-Step2.png) 
    
@@ -106,7 +106,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
 
       ![](media/sqlarcpassword.png "Enter Password")
       
-1. In Are you trying to sign into Microsoft Azure CLI? Click on **Continue** and minimize the Browser window. 
+1. Are you trying to sign into Microsoft Azure CLI? Click on **Continue** and minimize the Browser window. 
  
     ![](media/Ex1-Task2-Step9.png) 
  
