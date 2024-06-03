@@ -28,7 +28,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
    - Resource group: Select **sql-arc** from dropdown list. 
    - Region: **<inject key="Region" enableCopy="false"/>**. 
    - Operating Systems: Select **Windows**. 
-   - Server Name: Enter **SQLVM**.
+   - Server Name: Enter **SQLVM**
    - License Type: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. 
  
      Now, click on the **Next: Tags** button. 
@@ -122,10 +122,6 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
  
     ![](media/Ex1-Task2-Step11.png) 
    
-1. Here you can explore the Azure Arc | SQL Servers blade, click on **SQL Servres instances** **(1)** under Infrastructure from left-menu. By selecting the **+ Add** **(2)** option from the top menu you can onboard SQL Servers to Azure. You can run SQL queries by clicking on **Open query** **(3)** with ad-hoc method to access the data of a remote server. At last, you can see the SQL Servers that are onboarded to Azure Arc **(4)** as shown in the below screenshot.
-
-    ![](media/sql-arc-overview.png)
-
 1. Select the **SQLVM** resource and now you can see the dashboard of **SQLVM** SQL Server -Azure Arc from Azure Portal. 
  
     ![](media/Ex1-Task2-Step12.png)    
