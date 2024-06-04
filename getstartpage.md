@@ -38,11 +38,11 @@
 
 1. If a **Welcome to Microsoft Azure** popup window appears, select **Maybe Later** to skip the tour.
    
-1. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
+1. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
    ![](media/select-rg.png "Resource groups")
    
-1. Confirm that you have all resource group is present as shown below.
+1. Confirm that you have all resource groups present as shown below.
 
    ![](media/sql-arc-rgs.png "Resource groups")
    
