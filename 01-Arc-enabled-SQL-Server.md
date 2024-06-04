@@ -30,10 +30,9 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
    - Operating Systems: Select **Windows**. 
    - Server Name: Enter **SQLVM**
    - License Type: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. 
- 
-     Now, click on the **Next: Tags** button. 
+   - Now, click on the **Next: Tags** button. 
     
-   ![](media/sqlarcdetails.png) 
+      ![](media/sqlarcdetails.png) 
     
 1. Leave the default for tags blade and click on **Next: Run Script** button. 
   
@@ -79,7 +78,7 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
   
     ![](media/Ex1-Task2-Step3.png)        
  
-1. The script you copied on **step 8 of task 1** must be pasted in **Script Pane** and clicked on **Run Script**. 
+1. The script you copied on **step 7 of task 1** must be pasted in **Script Pane** and clicked on **Run Script**. 
  
     ![](media/Ex1-Task2-Step4.png)  
       
