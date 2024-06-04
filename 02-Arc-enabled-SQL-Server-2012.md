@@ -29,11 +29,10 @@ In this exercise, you will onboard SQL Server to Azure Arc using PowerShell comm
    - Region: **<inject key="Region" enableCopy="false"/>**. 
    - Operating Systems: Select **Windows**. 
    - Server Name: Enter **SQLVM2016**.
-   - License Type: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. 
- 
-     Now, click on the **Next: Tags** button. 
+   - License Type: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**.
+   - Now, click on the **Next: Tags** button. 
     
-   ![](media/azure-arc-2012.png) 
+      ![](media/azure-arc-2012.png) 
     
 1. Leave the default for tags blade and click on **Next: Run Script** button. 
   
