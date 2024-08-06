@@ -1,6 +1,15 @@
 # Exercise 2: Onboard the On-prem SQLServer 2012 to Azure Arc-enabled SQL Server 
  
 In this exercise, you will onboard an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal, enable Best practices assessment and Microsoft Defender for SQL.
+
+## Lab Objectives
+
+You will be able to complete the following tasks:
+
+- Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager
+- Task 2: Register Azure Arc-enabled SQL Server
+- Task 3: Enable Best practices assessment
+- Task 4: Enable Microsoft Defender for SQL
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
 
@@ -68,7 +77,7 @@ In this exercise, you will onboard an on-prem SQL Server to Azure Arc using Powe
  
       ![](media/sqlv-logscreen.png "open VM")
 
-## Task 2: Register Azure Arc-enabled SQL Server. 
+## Task 2: Register Azure Arc-enabled SQL Server
   
 1. From the start menu of the sqlvm2016, search for **PowerShell**, and right click on **Windows PowerShell ISE** and select **Run as Administrator**.
   
@@ -117,7 +126,7 @@ In this exercise, you will onboard an on-prem SQL Server to Azure Arc using Powe
 
     ![](media/min-sqlvm2012.png)
 
-### Task 3: Enable Best practices assessment  
+## Task 3: Enable Best practices assessment  
 
 1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**.
    
@@ -159,7 +168,7 @@ In this exercise, you will onboard an on-prem SQL Server to Azure Arc using Powe
 
    ![](media/BPA-select-assessmet-output.png)
 
-### Task 4: Enable Microsoft Defender for SQL
+## Task 4: Enable Microsoft Defender for SQL
 
 1. Navigate to the previous tab **SQL2016 | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable** **(2)** button.
 
@@ -181,4 +190,8 @@ In this exercise, you will onboard an on-prem SQL Server to Azure Arc using Powe
 
    > **Note**: It might take up to 24 hours for **Recommendations** and **Security incidents and alerts** to populated.
 
-1. Now, click on Next from the lower right corner to move on to the next page.      
+## Summary
+
+In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal, enabled Best practices assessment and Microsoft Defender for SQL.
+
+### You have successfully completed the lab
