@@ -1,6 +1,14 @@
 # Exercise 3: Create a Single pane of glass-managed solutions with Azure Arc 
 
 In this exercise, you will configure a unified management dashboard using Azure Arc and Azure Monitor, creating a "single pane of glass" view for overseeing and managing all onboarded SQL Server instances from a centralized interface.
+
+## Lab Objectives
+
+You will be able to complete the following tasks:
+
+- Task 1: Create a Single Pane of Glass Dashboard
+- Task 2: Adding Resource Graph Grid Tiles - Servers
+- Task 3: Adding Resource Graph Grid Tiles - Server by location Chart
  
 ## Task 1: Create a Single Pane of Glass Dashboard 
  
@@ -18,7 +26,7 @@ In this exercise, you will configure a unified management dashboard using Azure 
  
     ![](media/Ex2-Task1-Step4.png) 
  
-## Task 2: Adding Resource Graph Grid Tiles 
+## Task 2: Adding Resource Graph Grid Tiles - Servers
  
 1. On the Right side of the custom dashboard page, under **Tile Gallery** search for **Resource graph grid tile (1)**, select **Resource graph grid tile (2)**, click on the **Add (3)** button, and click on **Save (4)**. 
  
@@ -48,7 +56,7 @@ In this exercise, you will configure a unified management dashboard using Azure 
      
     ![](media/Ex2-Task1-Step11.png) 
           
-## Task 3: Adding Resource Graph Grid Tiles      
+## Task 3: Adding Resource Graph Grid Tiles - Server by location Chart
      
 1. In Dashboard page, click on **Edit**, under **Tile Gallery** search for **Resource graph chart tile (1)**, select **Resource graph grid tile (2)**, click on **Add (3)** button, and click on **Save (4)**. 
  
@@ -79,4 +87,10 @@ In this exercise, you will configure a unified management dashboard using Azure 
     ![](media/Ex2-Task3-Step8c.png)   
 
 9. This repo [https://azure.github.io/az-hop/user_guide/files.html](https://github.com/markm555/SQLSPOG) contains all the scripts. The scripts are regularly updated.
+
+## Summary
+
+In this exercise, you created a single pane of glass dashboard using Azure Arc and Azure Monitor by adding Resource Graph Grid Tiles for SQL servers and server by location chart.
+
+### You have successfully completed the lab
 
