@@ -1,4 +1,6 @@
 # Exercise 2: Onboard the On-prem SQLServer 2012 to Azure Arc-enabled SQL Server 
+
+### Estimated Duration: 90 minutes
  
 In this exercise, you will onboard an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal, enable Best practices assessment and Microsoft Defender for SQL.
 
