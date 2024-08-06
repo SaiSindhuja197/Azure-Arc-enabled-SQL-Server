@@ -1,6 +1,6 @@
 # Exercise 1: Onboard the On-prem SQLServer to Azure Arc-enabled SQL Server 
  
-In this exercise, you will onboard SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
+In this exercise, you will onboard an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
 
