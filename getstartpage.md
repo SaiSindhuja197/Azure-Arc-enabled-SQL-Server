@@ -47,7 +47,7 @@ The architecture for this lab involves several key components:
 - **Azure Resource Manager:** For registering and managing resources within the Azure portal.
 - **Azure Monitor:** provides performance metrics, logs, and dashboards for unified monitoring and management of SQL Server instances onboarded to Azure Arc.
 
-## Getting Started with Lab
+## Getting Started with the Lab
 
 1. You can see a virtual machine desktop 💻 (**LABVM**) is loaded on the left side in your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
 
@@ -93,4 +93,16 @@ The architecture for this lab involves several key components:
 
    ![](media/sql-arc-rgs.png "Resource groups")
    
-1. Now, click on **Next** from the lower right corner to move on to the next page.
+By completing these exercises, participants will gain the skills to connect and manage both standard and legacy on-premises SQL Server instances using Azure Arc, allowing for centralized oversight through Azure. They will learn to onboard SQL Server instances, including SQL Server 2012, and create a unified management dashboard using Azure Monitor, providing a comprehensive view and control over their entire SQL Server environment from a single interface.
+
+## Support Contact
+ 
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+- Email Support: labs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+### Happy Learning!!
