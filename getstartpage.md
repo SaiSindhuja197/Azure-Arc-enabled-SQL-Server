@@ -1,5 +1,21 @@
 # Azure Arc-enabled SQL Server Workshop
 
+## Overview
+
+Contoso, a global retail company, operates SQL Server databases across various on-premises data centers and remote locations. To streamline management and enhance visibility, Contoso participates in the Azure Arc-enabled SQL Server workshop. The workshop guides Contoso through the process of connecting their SQL Server instances to Azure Arc, enabling unified management through the Azure portal.
+
+The Azure Arc-enabled SQL Server workshop demonstrates how to extend Azure management capabilities to SQL Server instances running on-premises or in other cloud environments. By leveraging Azure Arc, you can centrally manage and govern SQL Server deployments with Azure’s tools and services, regardless of their location.
+
+## Objective
+
+In the hands-on labs, you'll first onboard your on-premises SQL Server instances to Azure Arc, enabling centralized management through the Azure portal. The initial exercise covers connecting a general SQL Server, while the second focuses specifically on integrating SQL Server 2012, ensuring compatibility with older versions. Finally, you'll create a unified management dashboard, or "single pane of glass," that aggregates monitoring and management capabilities across all your SQL Server instances, providing a streamlined view and control of your entire SQL Server environment.
+
+1. **Onboard the On-prem SQLServer to Azure Arc-enabled SQL Server:** Connects on-premises SQL Server instances to Azure Arc for centralized management. Participants will successfully connect their on-premises SQL Server instances to Azure Arc, enabling centralized management and visibility from the Azure portal.
+
+1. **Onboard the On-prem SQLServer 2012 to Azure Arc-enabled SQL Server:** Integrates SQL Server 2012 with Azure Arc, ensuring compatibility with older SQL Server versions. Participants will integrate SQL Server 2012 with Azure Arc, allowing them to manage and monitor older SQL Server instances through Azure’s management tools.
+
+1. **Create a Single pane of glass-managed solutions with Azure Arc:** Configures a unified management dashboard in Azure to oversee all SQL Server instances from a single interface. Participants will configure a unified management dashboard in Azure, providing a comprehensive view and control over all their SQL Server instances from a single, centralized interface.
+
 ## Getting Started with Lab
 
 1. You can see a virtual machine desktop 💻 (**LABVM**) is loaded on the left side in your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
