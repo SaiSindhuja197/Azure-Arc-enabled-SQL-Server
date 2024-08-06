@@ -16,6 +16,20 @@ In the hands-on labs, you'll first onboard your on-premises SQL Server instances
 
 1. **Create a Single pane of glass-managed solutions with Azure Arc:** Configures a unified management dashboard in Azure to oversee all SQL Server instances from a single interface. Participants will configure a unified management dashboard in Azure, providing a comprehensive view and control over all their SQL Server instances from a single, centralized interface.
 
+## Prerequisites
+
+Participants should have:
+
+- **Basic Knowledge of SQL Server:** Familiarity with SQL Server concepts and management tasks.
+Understanding of Azure Services: Awareness of Azure services and how Azure Arc integrates with on-premises resources.
+- **Azure Subscription:** Access to an active Azure subscription with sufficient permissions to register resources and configure Azure Arc.
+- **Administrative Access:** Administrative access to on-premises SQL Server instances and the ability to install software and make configuration changes.
+- **Networking Basics:** Understanding of networking principles to ensure connectivity between on-premises servers and Azure.
+
+## Architecture
+
+
+
 ## Getting Started with Lab
 
 1. You can see a virtual machine desktop 💻 (**LABVM**) is loaded on the left side in your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
