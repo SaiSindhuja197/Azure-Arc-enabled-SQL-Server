@@ -131,8 +131,6 @@ You will be able to complete the following tasks:
 1. Select the **SQLVM** resource and now you can see the dashboard of **SQLVM** SQL Server -Azure Arc from Azure Portal. 
  
     ![](media/Ex1-Task2-Step12.png)    
-    
-1. Now, click on Next from the lower right corner to move on to the next page.
 
 <validation step="f00aaa9f-7a98-4314-9310-a1fcd61130aa" />
 
