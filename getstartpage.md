@@ -45,7 +45,7 @@ The architecture for this lab involves several key components:
 - **Azure Arc:** Extends Azure's management and governance capabilities to on-premises, multi-cloud, and edge environments, enabling unified management, consistent policy enforcement, and centralized monitoring across diverse infrastructure.
 - **Virtual Machine:** A virtual machine running on Hyper-V that hosts workloads or applications on-premises.
 - **Azure Resource Manager:** For registering and managing resources within the Azure portal.
-- **Azure Monitor:** provides performance metrics, logs, and dashboards for unified monitoring and management of SQL Server instances onboarded to Azure Arc.
+- **Azure Monitor:** Provides performance metrics, logs, and dashboards for unified monitoring and management of SQL Server instances onboarded to Azure Arc.
 
 ## Getting Started with the Lab
 
