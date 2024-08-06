@@ -38,6 +38,15 @@ Understanding of Azure Services: Awareness of Azure services and how Azure Arc i
 
 
 
+## Explanation of Components
+
+The architecture for this lab involves several key components:
+
+- **Azure Arc:** Extends Azure's management and governance capabilities to on-premises, multi-cloud, and edge environments, enabling unified management, consistent policy enforcement, and centralized monitoring across diverse infrastructure.
+- **Virtual Machine:** A virtual machine running on Hyper-V that hosts workloads or applications on-premises.
+- **Azure Resource Manager:** For registering and managing resources within the Azure portal.
+- **Azure Monitor:** provides performance metrics, logs, and dashboards for unified monitoring and management of SQL Server instances onboarded to Azure Arc.
+
 ## Getting Started with Lab
 
 1. You can see a virtual machine desktop 💻 (**LABVM**) is loaded on the left side in your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
