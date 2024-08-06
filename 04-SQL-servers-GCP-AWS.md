@@ -1,7 +1,5 @@
 # Exercise 4: Azure ARC Extended SQL server for GCP and AWS (Read-Only)
 
-## Overview
-
 Azure Arc extends the Azure cloud beyond Microsoft's data centers. You still interact with Azure tools (the portal, CLI, PowerShell, APIs, SDKs, and even third-party deployment tools such as Terraform), but rather than using them to interact with your Azure resources, you also leverage the same tools to interact with your on-premises infrastructure and other cloud platforms, including Amazon Web Services (AWS) and Google Cloud Platform (GCP).
 
 The below code is a Kusto query that retrieves information about SQL Servers registered with ARC Extended SQL, including those in GCP and AWS. The query performs the following steps:
