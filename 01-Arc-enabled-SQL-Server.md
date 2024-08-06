@@ -1,6 +1,13 @@
 # Exercise 1: Onboard the On-prem SQLServer to Azure Arc-enabled SQL Server 
  
 In this exercise, you will onboard an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
+
+## Lab Objectives
+
+You will be able to complete the following tasks:
+
+- Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager
+- Task 2: Register Azure Arc-enabled SQL Server
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
 
@@ -68,7 +75,7 @@ In this exercise, you will onboard an on-prem SQL Server to Azure Arc using Powe
  
       ![](media/EX1-T1-S6.png "open VM") 
              
-## Task 2: Register Azure Arc-enabled SQL Server. 
+## Task 2: Register Azure Arc-enabled SQL Server
   
 1. From the start menu of the SQL VM, search for **PowerShell**, right-click on **Windows PowerShell ISE** and select **Run as Administrator**. 
   
@@ -128,3 +135,9 @@ In this exercise, you will onboard an on-prem SQL Server to Azure Arc using Powe
 1. Now, click on Next from the lower right corner to move on to the next page.
 
 <validation step="f00aaa9f-7a98-4314-9310-a1fcd61130aa" />
+
+## Summary
+
+In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
+
+### You have successfully completed the lab
