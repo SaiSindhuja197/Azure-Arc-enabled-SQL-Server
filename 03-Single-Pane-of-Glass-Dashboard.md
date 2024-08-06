@@ -1,5 +1,7 @@
 # Exercise 3: Create a Single pane of glass-managed solutions with Azure Arc 
 
+### Estimated Duration: 30 minutes
+
 In this exercise, you will configure a unified management dashboard using Azure Arc and Azure Monitor, creating a "single pane of glass" view for overseeing and managing all onboarded SQL Server instances from a centralized interface.
 
 ## Lab Objectives
