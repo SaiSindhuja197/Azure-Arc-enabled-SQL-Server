@@ -40,6 +40,8 @@ To complete these exercises, Azure Arc is used to extend Azure's management capa
 
 ## Architecture Diagram
 
+![](media/azure-arc-arch-diagram.png) 
+
 ## Explanation of Components
 
 The architecture for this lab involves several key components:
