@@ -10,7 +10,7 @@ The Azure Arc-enabled SQL Server workshop demonstrates how to extend Azure manag
 
 ## Objective
 
-In the hands-on labs, you'll first onboard your on-premises SQL Server instances to Azure Arc, enabling centralized management through the Azure portal. The initial exercise covers connecting a general SQL Server, while the second focuses specifically on integrating SQL Server 2012, ensuring compatibility with older versions. Finally, you'll create a unified management dashboard, or "single pane of glass," that aggregates monitoring and management capabilities across all your SQL Server instances, providing a streamlined view and control of your entire SQL Server environment.
+Learn to connect standard on-premises SQL Server instances to Azure Arc for centralized management and configure a comprehensive dashboard in Azure Monitor for centralized oversight of all SQL Server instances via Azure Arc.
 
 1. **Onboard the On-prem SQLServer to Azure Arc-enabled SQL Server:** Connects on-premises SQL Server instances to Azure Arc for centralized management. Participants will successfully connect their on-premises SQL Server instances to Azure Arc, enabling centralized management and visibility from the Azure portal.
 
