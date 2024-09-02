@@ -136,7 +136,7 @@ You will be able to complete the following tasks:
  
     ![](media/Ex1-Task2-Step12.png)    
 
-<validation step="f00aaa9f-7a98-4314-9310-a1fcd61130aa" />
+    <validation step="f00aaa9f-7a98-4314-9310-a1fcd61130aa" />
 
 ## Summary
 
