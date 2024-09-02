@@ -103,7 +103,7 @@ You will be able to complete the following tasks:
  
     ![](media/Ex1-Task2-Step7.png) 
   
-1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**‭. Enter the following **Email/Username** and then click on **Next**.  
+1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username** and then click on **Next**.  
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
        ![](media/sqlarclogin.png "Enter Email")
@@ -122,13 +122,15 @@ You will be able to complete the following tasks:
  
     ![](media/Ex1-Task2-Step10.png) 
 
-1. Minimize the sqlvm on SQL-ARC VM.   
+1. **Minimize** the sqlvm on SQL-ARC VM.   
 
     ![](media/sqlvm-min.png) 
 
 1. Bring back the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step. 
  
     ![](media/Ex1-Task2-Step11.png) 
+
+    > **Note**: If you are not able to view **SQLVM** SQL Server instances wait for 5 minutes and keep refreshing the page.
    
 1. Select the **SQLVM** resource and now you can see the dashboard of **SQLVM** SQL Server -Azure Arc from Azure Portal. 
  

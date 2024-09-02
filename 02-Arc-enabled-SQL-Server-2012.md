@@ -77,7 +77,7 @@ You will be able to complete the following tasks:
  
 1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm2012 window size at your convenience. 
  
-      ![](media/sqlv-logscreen.png "open VM")
+      ![](media/EX1-T1-S6.png "open VM")
 
 ## Task 2: Register Azure Arc-enabled SQL Server
   
@@ -105,7 +105,7 @@ You will be able to complete the following tasks:
  
     ![](media/Ex1-Task2-Step7.png) 
   
-1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**‭. Enter the following **Email/Username** and then click on **Next**.  
+1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username** and then click on **Next**.  
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
        ![](media/sqlarclogin.png "Enter Email")
@@ -142,7 +142,7 @@ You will be able to complete the following tasks:
  
     ![](media/Host-ESU-status.png)    
 
-1. In **SQLVM2016 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and click on **SQLVM2016** **(4)** under SQL Server Instances.
+1. In **SQLVM2016 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and once the changes are updaated click on **SQLVM2016** **(4)** under SQL Server Instances.
 
     ![](media/sql-server-configration.png)
 
