@@ -38,7 +38,7 @@ Understanding of Azure Services: Awareness of Azure services and how Azure Arc i
 
 To complete these exercises, Azure Arc is used to extend Azure's management capabilities to both standard and legacy on-premises SQL Server instances, enabling them to be managed from the Azure portal. Azure Monitor provides essential performance metrics, logs, and alerts for these SQL Server instances, facilitating effective monitoring and troubleshooting. Additionally, Azure Monitor Dashboards are utilized to create a unified, customizable view of all connected SQL Server instances, consolidating monitoring data into a single interface for streamlined management and oversight.
 
-## Architecture Diagram
+## General Architecture Diagram
 
 ![](media/azure-arc-arch-diagram.png) 
 
