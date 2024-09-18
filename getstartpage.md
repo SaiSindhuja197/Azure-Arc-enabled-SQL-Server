@@ -82,6 +82,12 @@ The architecture for this lab involves several key components:
    * **Password**: <inject key="AzureAdUserPassword"></inject>
    
       ![](media/getstartpage05.png "Enter Password")
+
+1. If you see the pop-up Action Required, click Ask Later.
+
+   ![](media/asklater.png)
+
+   >**NOTE:** Do not enable MFA, select **Ask Later**.
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
@@ -108,5 +114,7 @@ Learner Support Contacts:
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
 Now, click on **Next** from the lower right corner to move on to the next page.
+
+![](media/lab-next.png)
 
 ### Happy Learning!!
