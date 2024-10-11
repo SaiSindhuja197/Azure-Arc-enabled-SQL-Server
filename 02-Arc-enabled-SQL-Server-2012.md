@@ -89,7 +89,7 @@ You will be able to complete the following tasks:
   
     ![](media/Ex1-Task2-Step3.png)        
  
-1. The script you copied on **step 8 of task 1** must be pasted in **Script Pane** and clicked on **Run Script**. 
+1. The script you copied on **step 8 of task 1** must be pasted in **Script Pane** and click on **Run Script**. 
  
     ![](media/Ex1-Task2-Step4.png)  
       
@@ -132,7 +132,7 @@ You will be able to complete the following tasks:
 
 1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**.
    
-1. Click on **SQL Servres instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016** **(2)** instance. 
+1. Click on **SQL Servers instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016** **(2)** instance. 
 
    ![](media/sql-vm-12-sql.png)
 
