@@ -140,7 +140,7 @@ You will be able to complete the following tasks:
 
 1. Once you are in **SQLVM2016** instance, click on **N/A** under ESU Subscription. 
  
-    ![](media/Host-ESU-status.png)    
+    ![](media/sql16-esu.png)    
 
 1. In **SQLVM2016 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and once the changes are updaated click on **SQLVM2016** **(4)** under SQL Server Instances.
 
