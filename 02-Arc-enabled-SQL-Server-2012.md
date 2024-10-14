@@ -89,7 +89,7 @@ You will be able to complete the following tasks:
   
     ![](media/Ex1-Task2-Step3.png)        
  
-1. The script you copied on **step 8 of task 1** must be pasted in **Script Pane** and clicked on **Run Script**. 
+1. The script you copied on **step 8 of task 1** must be pasted in **Script Pane** and click on **Run Script**. 
  
     ![](media/Ex1-Task2-Step4.png)  
       
@@ -132,23 +132,23 @@ You will be able to complete the following tasks:
 
 1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**.
    
-1. Click on **SQL Servres instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016** **(2)** instance. 
+1. Click on **SQL Servers instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016** **(2)** instance. 
 
-   ![](media/sql-vm-12-sql.png)
+   ![](media/arc-server-instances.png)
 
    > **Note**: If you are not able to view **SQLVM2016** SQL Server instances wait for 5 minutes and keep refreshing the page.
 
 1. Once you are in **SQLVM2016** instance, click on **N/A** under ESU Subscription. 
  
-    ![](media/Host-ESU-status.png)    
+    ![](media/sql16-esu.png)    
 
 1. In **SQLVM2016 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and once the changes are updaated click on **SQLVM2016** **(4)** under SQL Server Instances.
 
-    ![](media/sql-server-configration.png)
+    ![](media/server-configuration.png)
 
       **Note**: SQL Server Configuration Host license type change will take more than 5 minutes. Please wait at least 5 minutes to view new values.
 
-1. Click on **Best practices assessment** **(1)** under **Settigs** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Enable assessment**  **(3)**.
+1. Click on **Best practices assessment** **(1)** under **Settings** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Enable assessment**  **(3)**.
    
     ![](media/Best-practices-assessment.png)
    
