@@ -134,7 +134,7 @@ You will be able to complete the following tasks:
    
 1. Click on **SQL Servers instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016** **(2)** instance. 
 
-   ![](media/sql-vm-12-sql.png)
+   ![](media/arc-server-instances.png)
 
    > **Note**: If you are not able to view **SQLVM2016** SQL Server instances wait for 5 minutes and keep refreshing the page.
 
@@ -144,7 +144,7 @@ You will be able to complete the following tasks:
 
 1. In **SQLVM2016 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and once the changes are updaated click on **SQLVM2016** **(4)** under SQL Server Instances.
 
-    ![](media/sql-server-configration.png)
+    ![](media/server-configration.png)
 
       **Note**: SQL Server Configuration Host license type change will take more than 5 minutes. Please wait at least 5 minutes to view new values.
 
