@@ -148,7 +148,7 @@ You will be able to complete the following tasks:
 
       **Note**: SQL Server Configuration Host license type change will take more than 5 minutes. Please wait at least 5 minutes to view new values.
 
-1. Click on **Best practices assessment** **(1)** under **Settigs** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Enable assessment**  **(3)**.
+1. Click on **Best practices assessment** **(1)** under **Settings** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Enable assessment**  **(3)**.
    
     ![](media/Best-practices-assessment.png)
    
