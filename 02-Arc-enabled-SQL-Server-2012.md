@@ -144,7 +144,7 @@ You will be able to complete the following tasks:
 
 1. In **SQLVM2016 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and once the changes are updaated click on **SQLVM2016** **(4)** under SQL Server Instances.
 
-    ![](media/server-configration.png)
+    ![](media/server-configuration.png)
 
       **Note**: SQL Server Configuration Host license type change will take more than 5 minutes. Please wait at least 5 minutes to view new values.
 
