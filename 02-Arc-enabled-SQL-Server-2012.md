@@ -1,4 +1,4 @@
-# Exercise 2: Onboard the On-prem SQLServer 2012 to Azure Arc-enabled SQL Server 
+# Exercise 2: Onboard the On-prem SQLServer 2016 to Azure Arc-enabled SQL Server 
 
 ### Estimated Duration: 90 minutes
  
@@ -71,11 +71,11 @@ You will be able to complete the following tasks:
 
    >**Note**: Please start the **sqlvm2016** if it is stopped state.
  
-1. Connect to the sqlvm2012 box, and then click on the **Connect** button. 
+1. Connect to the sqlvm2016 box, and then click on the **Connect** button. 
  
       ![](media/sqlvm12-connect.png "open VM") 
  
-1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm2012 window size at your convenience. 
+1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm2016 window size at your convenience. 
  
       ![](media/EX1-T1-S6.png "open VM")
 
