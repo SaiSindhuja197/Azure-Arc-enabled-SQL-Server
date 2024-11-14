@@ -126,13 +126,13 @@ You will be able to complete the following tasks:
 
 1. Bring back the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step. 
  
-    ![](media/sqlvm.png) 
+    ![](media/az-ex1-6.png) 
 
     > **Note**: If you are not able to view **SQLVM** SQL Server instances wait for 5 minutes and keep refreshing the page.
    
 1. Select the **SQLVM** resource and now you can see the dashboard of **SQLVM** SQL Server -Azure Arc from Azure Portal. 
  
-    ![](media/az-ex1-6.png)    
+    ![](media/Ex1-Task2-Step12.png)    
 
     <validation step="f00aaa9f-7a98-4314-9310-a1fcd61130aa" />
 
