@@ -89,7 +89,7 @@ You will be able to complete the following tasks:
   
     ![](media/Ex1-Task2-Step3.png)        
  
-1. The script you copied on **step 7 of task 1** must be pasted in **Script Pane** and clicked on **Run Script**. 
+1. The script you copied on **step 7 of task 1** must be pasted in **Script Pane (1)** and clicked on **Run Script (2)**. 
  
     ![](media/Ex1-Task2-Step4.png)  
       
