@@ -105,14 +105,14 @@ You will be able to complete the following tasks:
  
     ![](media/az-ex1-4.png) 
   
-1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username** and then click on **Next (2)**.  
-   * Email/Username: <inject key="AzureAdUserEmail"></inject> **(1)**
+1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username (1)** and then click on **Next (2)**.  
+   * Email/Username: <inject key="AzureAdUserEmail"></inject> 
    
        ![](media/az-ex1-5.png "Enter Email")
     
-1. Now, enter the **Password** that you have already received for the above account, and click on **Sign in (2)** 
+1. Now, enter the **Password (2)** that you have already received for the above account, and click on **Sign in (2)** 
       
-   * Password: <inject key="AzureAdUserPassword"></inject> **(1)**
+   * Password: <inject key="AzureAdUserPassword"></inject> 
 
       ![](media/sqlarcpassword.png "Enter Password")
       
