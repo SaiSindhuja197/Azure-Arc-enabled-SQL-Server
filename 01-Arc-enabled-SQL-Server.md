@@ -61,11 +61,7 @@ You will be able to complete the following tasks:
  
       ![](media/hyperv-sql-arc.png "select server") 
  
-1. On the Hyper-V manager, you will find multiple guest virtual machines available. 
- 
-      ![](media/number-of-hyper-v.png "select VM") 
-       
-1. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
+1. On the Hyper-V manager, you will find multiple guest virtual machines available. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
  
       ![](media/sql-vm01.png "open VM")  
 
@@ -136,7 +132,7 @@ You will be able to complete the following tasks:
    
 1. Select the **SQLVM** resource and now you can see the dashboard of **SQLVM** SQL Server -Azure Arc from Azure Portal. 
  
-    ![](media/Ex1-Task2-Step12.png)    
+    ![](media/az-ex1-6.png)    
 
     <validation step="f00aaa9f-7a98-4314-9310-a1fcd61130aa" />
 
