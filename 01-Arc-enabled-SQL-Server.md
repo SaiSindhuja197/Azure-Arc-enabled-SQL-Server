@@ -108,13 +108,13 @@ You will be able to complete the following tasks:
 1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username** and then click on **Next (2)**.  
    * Email/Username: <inject key="AzureAdUserEmail"></inject> **(1)**
    
-       ![](media/sqlarclogi.png "Enter Email")
+       ![](media/az-ex1-5.png "Enter Email")
     
 1. Now, enter the **Password** that you have already received for the above account, and click on **Sign in (2)** 
       
    * Password: <inject key="AzureAdUserPassword"></inject> **(1)**
 
-      ![](media/az-ex1-5.png "Enter Password")
+      ![](media/sqlarcpassword.png "Enter Password")
       
 1. Are you trying to sign into Microsoft Azure CLI? Click on **Continue** and minimize the Browser window. 
  
