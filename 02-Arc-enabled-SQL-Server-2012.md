@@ -43,7 +43,7 @@ You will be able to complete the following tasks:
      - License Type: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**.  **(6)**
      - Now, click on the **Next: Tags (7)** button. 
     
-       ![](media/az-ex2-1.png) 
+   ![](media/az-ex2-1.png) 
     
 1. Leave the default for tags blade and click on **Next: Run Script** button.
 
