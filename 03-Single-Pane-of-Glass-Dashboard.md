@@ -86,7 +86,7 @@ You will be able to complete the following tasks:
      
     ![](media/az-ex3-3.png) 
  
-10.  Your dashboard should look like the one below. You can resize each individual tile and arrange them however you like on your new dashboard by clicking edit at the top of the dashboard. 
+10. Your dashboard should look like the one below. You can resize each individual tile and arrange them however you like on your new dashboard by clicking edit at the top of the dashboard. 
      
     ![](media/Ex2-Task3-Step8a.png) 
      
