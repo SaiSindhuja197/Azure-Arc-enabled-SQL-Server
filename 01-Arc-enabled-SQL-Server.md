@@ -31,18 +31,18 @@ You will be able to complete the following tasks:
      
    ![](media/EX1-Task1-Step5.png) 
     
-1. On the **Server Details** blade, enter the details below. 
-  
-   - **Subscription**: Select the default subscription. **(1)**
-   - **Resource group**: Select **sql-arc** from dropdown list. **(2)**
-   - **Region**: **<inject key="Region" enableCopy="false"/>**. **(3)**
-   - **Operating Systems**: Select **Windows**. **(4)**
-   - **Server Name**: Enter **SQLVM** **(5)**
-   - **License Type**: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. **(6)**
-   - Now, click on the **Next: Tags (7)** button. 
-    
-      ![](media/az-ex1-1.png) 
-    
+1. On the **Server Details** blade, enter the details below.
+   
+     - **Subscription**: Select the default subscription. **(1)**
+     - **Resource group**: Select **sql-arc** from dropdown list. **(2)**
+     - **Region**: **<inject key="Region" enableCopy="false"/>**. **(3)**
+     - **Operating Systems**: Select **Windows**. **(4)**
+     - **Server Name**: Enter **SQLVM** **(5)**
+     - **License Type**: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. **(6)**
+     - Now, click on the **Next: Tags (7)** button.
+      
+       ![](media/az-ex1-1.png)
+         
 1. Leave the default for tags blade and click on **Next: Run Script** button.
 
    ![](media/az-ex1-2.png) 
