@@ -13,7 +13,7 @@ You will be able to complete the following tasks:
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
 
-1. In the Azure portal, click on the search blade at the top and search for ```SQL Server```. Then select **SQL Server - Azure Arc**. 
+1. In the Azure portal, click on the search blade at the top and search for ```SQL Server``` **(1)**. Then select **SQL Server - Azure Arc** **(2)**.
   
    ![](media/EX1-Task1-Step2.png) 
     
@@ -33,17 +33,19 @@ You will be able to complete the following tasks:
     
 1. On the **Server Details** blade, enter the details below. 
   
-   - Subscription: Select the default subscription.
-   - Resource group: Select **sql-arc** from dropdown list. 
-   - Region: **<inject key="Region" enableCopy="false"/>**. 
-   - Operating Systems: Select **Windows**. 
-   - Server Name: Enter **SQLVM**
-   - License Type: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. 
-   - Now, click on the **Next: Tags** button. 
+   - **Subscription**: Select the default subscription. **(1)**
+   - **Resource group**: Select **sql-arc** from dropdown list. **(2)**
+   - **Region**: **<inject key="Region" enableCopy="false"/>**. **(3)**
+   - **Operating Systems**: Select **Windows**. **(4)**
+   - **Server Name**: Enter **SQLVM** **(5)**
+   - **License Type**: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. **(6)**
+   - Now, click on the **Next: Tags (7)** button. 
     
-      ![](media/sqlarcdetails.png) 
+      ![](media/az-ex1-1.png) 
     
-1. Leave the default for tags blade and click on **Next: Run Script** button. 
+1. Leave the default for tags blade and click on **Next: Run Script** button.
+
+   ![](media/az-ex1-2.png) 
   
 1. On the **Script** blade, explore the given script, copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
        
@@ -59,11 +61,7 @@ You will be able to complete the following tasks:
  
       ![](media/hyperv-sql-arc.png "select server") 
  
-1. On the Hyper-V manager, you will find multiple guest virtual machines available. 
- 
-      ![](media/number-of-hyper-v.png "select VM") 
-       
-1. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
+1. On the Hyper-V manager, you will find multiple guest virtual machines available. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
  
       ![](media/sql-vm01.png "open VM")  
 
@@ -79,15 +77,15 @@ You will be able to complete the following tasks:
              
 ## Task 2: Register Azure Arc-enabled SQL Server
   
-1. From the start menu of the SQL VM, search for **PowerShell**, right-click on **Windows PowerShell ISE** and select **Run as Administrator**. 
+1. From the start menu of the SQL VM, search for **PowerShell (1)**, right-click on **Windows PowerShell ISE (2)** and select **Run as Administrator (3)**. 
   
-   ![](media/Ex1-Task2-Step2.png) 
+   ![](media/az-ex1-3.png) 
    
 1. In Windows PowerShell ISE, click on **Show Script Pane**. 
   
     ![](media/Ex1-Task2-Step3.png)        
  
-1. The script you copied on **step 7 of task 1** must be pasted in **Script Pane** and clicked on **Run Script**. 
+1. The script you copied on **step 7 of task 1** must be pasted in **Script Pane (1)** and clicked on **Run Script (2)**. 
  
     ![](media/Ex1-Task2-Step4.png)  
       
@@ -99,16 +97,16 @@ You will be able to complete the following tasks:
  
     ![](media/Ex1-Task2-Step6.png) 
  
-1. In Hyper-v VM, use a web browser to open the page **https://microsoft.com/devicelogin**, enter the **authenticate code** and click on **Next**.  
+1. In Hyper-v VM, use a web browser to open the page **https://microsoft.com/devicelogin**, enter the **authenticate code (1)** and click on **Next (2)**.  
  
-    ![](media/Ex1-Task2-Step7.png) 
+    ![](media/az-ex1-4.png) 
   
-1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username** and then click on **Next**.  
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username (1)** and then click on **Next (2)**.  
+   * Email/Username: <inject key="AzureAdUserEmail"></inject> 
    
-       ![](media/sqlarclogin.png "Enter Email")
+       ![](media/az-ex1-5.png "Enter Email")
     
-1. Now, enter the **Password** that you have already received for the above account. 
+1. Now, enter the **Password (2)** that you have already received for the above account, and click on **Sign in (2)** 
       
    * Password: <inject key="AzureAdUserPassword"></inject> 
 
@@ -128,7 +126,7 @@ You will be able to complete the following tasks:
 
 1. Bring back the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step. 
  
-    ![](media/sqlvm.png) 
+    ![](media/az-ex1-6.png) 
 
     > **Note**: If you are not able to view **SQLVM** SQL Server instances wait for 5 minutes and keep refreshing the page.
    
