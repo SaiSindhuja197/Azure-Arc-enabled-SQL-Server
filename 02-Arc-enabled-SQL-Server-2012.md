@@ -126,7 +126,7 @@ You will be able to complete the following tasks:
 
     ![](media/min-sqlvm2012.png)
 
-## Task 3: Enable Best practices assessment  
+## Task 3: Enable Best practices assessment (Read only)
 
 1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**.
    
