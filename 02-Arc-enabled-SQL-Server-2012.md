@@ -126,25 +126,15 @@ You will be able to complete the following tasks:
 
     ![](media/min-sqlvm2012.png)
 
-## Task 3: Enable Best practices assessment (Read only)
+## Task 3: Enable Best practices assessment
 
 1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**.
    
-1. Click on **SQL Servers instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016** **(2)** instance. 
+1. Click on **SQL Servers instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016_CB2016SQLSERVER** **(2)** instance. 
 
    ![](media/az-ex2-2.png)
 
-   > **Note**: If you are not able to view **SQLVM2016** SQL Server instances wait for 15-20 minutes and keep refreshing the page.
-
-1. Once you are in **SQLVM2016** instance, click on **N/A** under ESU Subscription. 
- 
-    ![](media/sql16-esu.png)    
-
-1. In **SQLVM2016 | SQL Server Configuration** blade, select License Type as **Pay-as-you-go** **(1)**, Extended Security Updates as **Subscribe to Extended Security Updates** **(2)**, click on **Save** **(3)** button, and once the changes are updaated click on **SQLVM2016** **(4)** under SQL Server Instances.
-
-    ![](media/server-configuration.png)
-
-      **Note**: SQL Server Configuration Host license type change will take more than 5 minutes. Please wait at least 5 minutes to view new values.
+   > **Note**: If you are not able to view **SQLVM2016_CB2016SQLSERVER** SQL Server instances wait for 15-20 minutes and keep refreshing the page.
 
 1. Click on **Best practices assessment** **(1)** under **Settings** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Enable assessment**  **(3)**.
    
@@ -152,11 +142,11 @@ You will be able to complete the following tasks:
    
    > **Note**: Please wait while assessment settings are being refreshed. It will initiate and redirect to the deployments page.   
 
-1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page. Once you are in **SQLVM2016 | Best practices assessment** blade, click on **Run assessment**.
+1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page. Once you are in **SQLVM2016_CB2016SQLSERVER | Best practices assessment** blade, click on **Run assessment**.
 
     ![](media/Best-practices-assessment1.png)
 
-1. Click on the **Refresh** button until assessment status changes to **Partially Succeeded**. It may take up to 5 minutes.
+1. Click on the **Refresh** button until assessment status changes to **Partially Succeeded**. It may take up to 5 to 10 minutes.
 
    ![](media/BPA-refresh.png)
 
@@ -170,7 +160,7 @@ You will be able to complete the following tasks:
 
 ## Task 4: Enable Microsoft Defender for SQL
 
-1. Navigate to the previous tab **SQL2016 | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable** **(2)** button.
+1. Navigate to the previous tab **SQLVM2016_CB2016SQLSERVER | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable** **(2)** button.
 
    ![](media/sqlvm-defender-for-cloud.png)
 
@@ -184,7 +174,7 @@ You will be able to complete the following tasks:
 
    ![](media/enabling-database.png) 
 
-1. Navigate to **SQL2016 | Microsoft Defender for Cloud**, observe that the **Recommendations** and **Security incidents and alerts** are populated.
+1. Navigate to **SQLVM2016_CB2016SQLSERVER | Microsoft Defender for Cloud**, observe that the **Recommendations** and **Security incidents and alerts** are populated.
 
    ![](media/MDC-output.png)
 
