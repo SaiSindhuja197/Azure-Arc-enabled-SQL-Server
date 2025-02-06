@@ -19,9 +19,7 @@ You will be able to complete the following tasks:
   
    ![](media/EX1-Task1-Step2.png) 
     
-1. Click on the **+ Add (2)** button to create the **SQL Server- Azure Arc (1)**.  
-  
-   ![](media/az-arcv-m.png) 
+1. Click on the **+ Add** to create the **SQL Server- Azure Arc**.  
     
 1. In the Adding existing SQL Servers instances page, click on **Connect Servers**. 
  

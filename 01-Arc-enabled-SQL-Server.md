@@ -21,17 +21,17 @@ You will be able to complete the following tasks:
   
    ![](media/az-arcv-m.png) 
     
-1. In the Adding existing SQL Servers instances page, click on **Connect Servers**. 
+1. On the Add existing SQL Servers instances page, click on **Connect Servers**. 
  
    ![](media/EX1-Task1-Step4.png) 
     
-1. You will now see the prerequisite page. You can explore the page and then click on the **Next: Server details** option. 
+1. You will now see the prerequisite page. You can explore the page and then click on the **Next: Server details** from the bottom. 
      
    > **Note**: We have already completed the prerequisite part for you.  
      
    ![](media/EX1-Task1-Step5.png) 
     
-1. On the **Server Details** blade, enter the details below.
+1. On the **Server Details** blade, enter the details below and click on **Next: Tags (7)**:
    
      - **Subscription**: Select the default subscription. **(1)**
      - **Resource group**: Select **sql-arc** from dropdown list. **(2)**
@@ -39,13 +39,12 @@ You will be able to complete the following tasks:
      - **Operating Systems**: Select **Windows**. **(4)**
      - **Server Name**: Enter **SQLVM** **(5)**
      - **License Type**: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. **(6)**
-     - Now, click on the **Next: Tags (7)** button.
       
-   ![](media/az-ex1-1.png)
+      ![](media/az-ex1-1.png)
          
-1. Leave the default for tags blade and click on **Next: Run Script** button.
+1. Leave the default for tags blade and click on **Next: Run Script**.
 
-   ![](media/az-ex1-2.png) 
+    ![](media/az-ex1-2.png) 
   
 1. On the **Script** blade, explore the given script, copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
        
@@ -53,7 +52,7 @@ You will be able to complete the following tasks:
 
 1. Minimize the Browser window.  
 
-1. In the **LABVM**, open the **Start menu** and search for **Hyper-V**. Select **Hyper-V Manager**. 
+1. In the **LABVM**, on the **Windows Search bar** ,search for **Hyper-V** and select **Hyper-V Manager**. 
  
       ![](media/EX1-T1-S1.png "search hyperv") 
  
@@ -140,4 +139,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
 
-### You have successfully completed the lab
+### You have successfully completed the lab!
