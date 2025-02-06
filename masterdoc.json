@@ -17,10 +17,6 @@
     {
       "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/03-Single-Pane-of-Glass-Dashboard.md",
       "Order": 4
-    },
-    {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/04-SQL-servers-GCP-AWS.md",
-      "Order": 5
     }
   ]
 } ]
