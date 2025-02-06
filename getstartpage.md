@@ -18,12 +18,6 @@ Learn to connect standard on-premises SQL Server instances to Azure Arc for cent
 
 1. **Create a Single pane of glass-managed solutions with Azure Arc:** Configures a unified management dashboard in Azure to oversee all SQL Server instances from a single interface. Participants will configure a unified management dashboard in Azure, providing a comprehensive view and control over all their SQL Server instances from a single, centralized interface.
 
-### Explore
-
-Explore and understand the read-only exercises to gain additional knowledge on how Azure ARC SQL Servers can be integrated with other cloud platforms using certain queries:
-
-1. **Azure ARC Extended SQL server for GCP and AWS (Read-Only):** Interact with Azure tools (the portal, CLI, PowerShell, APIs, SDKs, and even third-party deployment tools such as Terraform), including Amazon Web Services (AWS) and Google Cloud Platform (GCP) via a Kusto query (code) that retrieves information about SQL Servers registered with ARC Extended SQL, including those in GCP and AWS.
-
 ## Prerequisites
 
 Participants should have:
