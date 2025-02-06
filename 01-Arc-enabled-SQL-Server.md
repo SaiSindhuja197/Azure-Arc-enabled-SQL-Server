@@ -42,7 +42,7 @@ You will be able to complete the following tasks:
       
       ![](media/az-ex1-1.png)
          
-1. Leave the default for tags blade and click on **Next: Run Script**
+1. Leave the default for tags blade and click on **Next: Run Script**.
 
     ![](media/az-ex1-2.png) 
   
@@ -139,4 +139,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
 
-### You have successfully completed the lab
+### You have successfully completed the lab!
