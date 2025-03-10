@@ -21,15 +21,15 @@ You will be able to complete the following tasks:
     
 1. Click on the **+ Add** to create the **SQL Server- Azure Arc**.  
     
-1. In the Adding existing SQL Servers instances page, click on **Connect Servers**. 
+1. In the Adding existing SQL Servers instances page, click on **Connect SQL Servers instances**. 
  
-   ![](media/EX1-Task1-Step4.png) 
+   ![](media/cnctsqlinstancessd.png) 
     
 1. You will now see the prerequisite page. You can explore the page and then click on the **Next: Server details** option. 
      
    > **Note**: We have already completed the prerequisite part for you.  
      
-   ![](media/EX1-Task1-Step5.png) 
+   ![](media/cncsqlarcserveradd.png) 
     
 1. On the **Server Details** blade, enter the details below. 
   
@@ -49,7 +49,7 @@ You will be able to complete the following tasks:
   
 1. On the **Script** blade, explore the given script, copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
        
-      ![](media/EX1-Task1-Step8n.png) 
+      ![](media/dwnloadscriptss.png) 
 
 1. Minimize the Browser window.  
 
