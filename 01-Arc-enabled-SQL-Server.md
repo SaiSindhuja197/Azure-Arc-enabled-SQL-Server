@@ -19,17 +19,17 @@ You will be able to complete the following tasks:
     
 1. Click on the **+ Add (2)** button to create the **SQL Server- Azure Arc (1)**.  
   
-   ![](media/az-arcv-m.png) 
+   ![](media/addinstancesqlsm.png) 
     
-1. On the Add existing SQL Servers instances page, click on **Connect Servers**. 
+1. On the Add existing SQL Servers instances page, click on **Connect SQL Servers instances**. 
  
-   ![](media/EX1-Task1-Step4.png) 
+   ![](media/cnctsqlinstancessd.png) 
     
 1. You will now see the prerequisite page. You can explore the page and then click on the **Next: Server details** from the bottom. 
      
    > **Note**: We have already completed the prerequisite part for you.  
      
-   ![](media/EX1-Task1-Step5.png) 
+   ![](media/cncsqlarcserveradd.png) 
     
 1. On the **Server Details** blade, enter the details below and click on **Next: Tags (7)**:
    
@@ -48,7 +48,7 @@ You will be able to complete the following tasks:
   
 1. On the **Script** blade, explore the given script, copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
        
-      ![](media/EX1-Task1-Step8n.png) 
+      ![](media/dwnloadscriptss.png) 
 
 1. Minimize the Browser window.  
 
@@ -119,7 +119,7 @@ You will be able to complete the following tasks:
  
     ![](media/Ex1-Task2-Step10.png) 
 
-1. **Minimize** the sqlvm on SQL-ARC VM.   
+1. **Minimize** the sqlvm on SQL-ARC Hyper-V.   
 
     ![](media/sqlvm-min.png) 
 
@@ -131,7 +131,7 @@ You will be able to complete the following tasks:
    
 1. Select the **SQLVM** resource and now you can see the dashboard of **SQLVM** SQL Server -Azure Arc from Azure Portal. 
  
-    ![](media/Ex1-Task2-Step12.png)    
+    ![](media/sqlvmdashaboardss.png)    
 
     <validation step="f00aaa9f-7a98-4314-9310-a1fcd61130aa" />
 
