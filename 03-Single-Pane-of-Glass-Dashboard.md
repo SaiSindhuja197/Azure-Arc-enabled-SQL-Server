@@ -102,5 +102,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you created a single pane of glass dashboard using Azure Arc and Azure Monitor by adding Resource Graph Grid Tiles for SQL servers and server by location chart.
 
-### You have successfully completed the lab
-
+### You have successfully completed the lab!
