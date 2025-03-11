@@ -182,4 +182,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal, enabled Best practices assessment and Microsoft Defender for SQL.
 
-### You have successfully completed the lab
+### You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

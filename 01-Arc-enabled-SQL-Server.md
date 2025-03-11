@@ -139,4 +139,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
 
-### You have successfully completed the lab!
+### You have successfully completed the lab. Click on **Next >>** to procced with next exercise.
