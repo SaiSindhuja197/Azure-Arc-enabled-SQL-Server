@@ -23,9 +23,7 @@ Learn to connect standard on-premises SQL Server instances to Azure Arc for cent
 Participants should have:
 
 - **Basic Knowledge of SQL Server:** Familiarity with SQL Server concepts and management tasks.
-Understanding of Azure Services: Awareness of Azure services and how Azure Arc integrates with on-premises resources.
-- **Azure Subscription:** Access to an active Azure subscription with sufficient permissions to register resources and configure Azure Arc.
-- **Administrative Access:** Administrative access to on-premises SQL Server instances and the ability to install software and make configuration changes.
+- **Understanding of Azure Services**: Awareness of Azure services and how Azure Arc integrates with on-premises resources.
 - **Networking Basics:** Understanding of networking principles to ensure connectivity between on-premises servers and Azure.
 
 ## Architecture
