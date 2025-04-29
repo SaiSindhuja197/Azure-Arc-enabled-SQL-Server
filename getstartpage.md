@@ -4,9 +4,9 @@
 
 ## Overview
 
-Contoso, a global retail company, operates SQL Server databases across various on-premises data centers and remote locations. To streamline management and enhance visibility, Contoso participates in the Azure Arc enabled SQL Servers - Single Pane of Glass. The workshop guides Contoso through the process of connecting their SQL Server instances to Azure Arc, enabling unified management through the Azure portal.
+Contoso, a global retail company, operates SQL Server databases across various on-premises data centers and remote locations. To streamline management and enhance visibility, Contoso participates in the Azure Arc-enabled SQL Servers - Single Pane of Glass. The workshop guides Contoso through the process of connecting its SQL Server instances to Azure Arc, enabling unified management through the Azure portal.
 
-The Azure Arc enabled SQL Servers - Single Pane of Glass demonstrates how to extend Azure management capabilities to SQL Server instances running on-premises or in other cloud environments. By leveraging Azure Arc, you can centrally manage and govern SQL Server deployments with Azure’s tools and services, regardless of their location.
+The Azure Arc-enabled SQL Servers - Single Pane of Glass demonstrates how to extend Azure management capabilities to SQL Server instances running on-premises or in other cloud environments. By leveraging Azure Arc, you can centrally manage and govern SQL Server deployments with Azure’s tools and services, regardless of their location.
 
 ## Objective
 
@@ -14,7 +14,7 @@ Learn to connect standard on-premises SQL Server instances to Azure Arc for cent
 
 1. **Onboard the On-prem SQLServer to Azure Arc-enabled SQL Server:** Connects on-premises SQL Server instances to Azure Arc for centralized management. Participants will successfully connect their on-premises SQL Server instances to Azure Arc, enabling centralized management and visibility from the Azure portal.
 
-1. **Onboard the On-prem SQLServer 2016 to Azure Arc-enabled SQL Server:** Integrates SQL Server 2012 with Azure Arc, ensuring compatibility with older SQL Server versions. Participants will integrate SQL Server 2012 with Azure Arc, allowing them to manage and monitor older SQL Server instances through Azure’s management tools.
+1. **Onboard the On-prem SQLServer 2016 to Azure Arc-enabled SQL Server:** Integrates SQL Server 2016 with Azure Arc, ensuring compatibility with older SQL Server versions. Participants will integrate SQL Server 2016 with Azure Arc, allowing them to manage and monitor older SQL Server instances through Azure’s management tools.
 
 1. **Create a Single pane of glass-managed solutions with Azure Arc:** Configures a unified management dashboard in Azure to oversee all SQL Server instances from a single interface. Participants will configure a unified management dashboard in Azure, providing a comprehensive view and control over all their SQL Server instances from a single, centralized interface.
 
@@ -42,12 +42,12 @@ The architecture for this lab involves several key components:
 
 - **Azure Arc:** Extends Azure's management and governance capabilities to on-premises, multi-cloud, and edge environments, enabling unified management, consistent policy enforcement, and centralized monitoring across diverse infrastructure.
 - **Virtual Machine:** A virtual machine running on Hyper-V that hosts workloads or applications on-premises.
-- **Azure Resource Manager:** For registering and managing resources within the Azure portal.
+- **Azure Resource Manager:** This is for registering and managing resources within the Azure portal.
 - **Azure Monitor:** Provides performance metrics, logs, and dashboards for unified monitoring and management of SQL Server instances onboarded to Azure Arc.
 
 ## Getting Started with the Lab
  
-Welcome to your Azure Arc enabled SQL Servers - Single Pane of Glass workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Azure Arc-enabled SQL Servers - Single Pane of Glass workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
 
@@ -55,9 +55,9 @@ Welcome to your Azure Arc enabled SQL Servers - Single Pane of Glass workshop! W
 
    ![](media/sqlarcLABVM.png) 
    
-   >Note: If you see any PowerShell windows running in your VM, please do not close that as it's setting up some configurations inside the environment.
+   >Note: If you see any PowerShell windows running in your VM, please do not close them as they are setting up some configurations inside the environment.
  
-1. To get the lab environment details, you can select the **Environment** tab. Additionally, the credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop and restart virtual machines from the **Resources** tab.
+1. To get the lab environment details, you can select the **Environment** tab. Additionally, the credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
 
    ![](media/getstartpage02.png "Enter Email")
  
@@ -65,7 +65,7 @@ Welcome to your Azure Arc enabled SQL Servers - Single Pane of Glass workshop! W
 
 ## Lab Guide Zoom In/Zoom Out
 
-To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
    ![](media/labzoom-1.png)
 
@@ -75,7 +75,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    ![](media/getstartpage03.png "Enter Email")
    
-1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**. 
+1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following email/username, and click on **Next**. 
 
    * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
    
@@ -107,7 +107,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    ![](media/sql-arc-rgs.png "Resource groups")
    
-By completing these exercises, participants will gain the skills to connect and manage both standard and legacy on-premises SQL Server instances using Azure Arc, allowing for centralized oversight through Azure. They will learn to onboard SQL Server instances, including SQL Server 2012, and create a unified management dashboard using Azure Monitor, providing a comprehensive view and control over their entire SQL Server environment from a single interface.
+By completing these exercises, participants will gain the skills to connect and manage both standard and legacy on-premises SQL Server instances using Azure Arc, allowing for centralized oversight through Azure. They will learn to onboard SQL Server instances, including SQL Server 2016, and create a unified management dashboard using Azure Monitor, providing a comprehensive view and control over their entire SQL Server environment from a single interface.
 
 ## Support Contact
  
