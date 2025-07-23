@@ -2,65 +2,65 @@
 
 ### Estimated Duration: 90 minutes
  
-In this exercise, you will onboard an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
+In this exercise, you will onboard an on-premises SQL Server to Azure Arc using Powershell and Azure Portal. First, you need to access the SQL Server virtual machine using Hyper-V Manager and log in to the Azure Portal from within the VM. Then, install the Azure Connected Machine Agent using PowerShell to prepare the server for registration. After that, run the Arc registration script to connect the on-prem SQL Server to your Azure environment. Finally, complete the setup by registering the SQL Server with Azure Arc, enabling centralized management and monitoring through the Azure Portal.
 
 ## Lab Objectives
 
-You will be able to complete the following tasks:
+In this lab, you will complete the following tasks:
 
 - Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager
 - Task 2: Register Azure Arc-enabled SQL Server
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
 
-1. In the Azure portal, click on the search blade at the top and search for ```SQL Server``` **(1)**. Then select **SQL Server - Azure Arc** **(2)**.
+1. In the LabVM click on **Azure Portal** from the desktop to open, from the search bar at the top search for **SQL Server(1)** and then select **SQL Server - Azure Arc** **(2)**.
   
    ![](media/EX1-Task1-Step2.png) 
     
-1. Click on the **+ Add (2)** button to create the **SQL Server- Azure Arc (1)**.  
+1. From the left pane on Azure Arc |SQL Server instances, under Data services select **SQL Server instances**, click on the **+ Add (2)** to create the **SQL Server- Azure Arc (1)**.  
   
    ![](media/addinstancesqlsm.png) 
     
-1. On the Add existing SQL Servers instances page, click on **Connect SQL Servers instances**. 
+1. In the Add existing SQL Servers instances page, click on **Connect SQL Server instances**. 
  
    ![](media/cnctsqlinstancessd.png) 
     
-1. You will now see the prerequisite page. You can explore the page and then click on the **Next: Server details** from the bottom. 
+1. In Connect SQL Server enabled by Azure Arc under the Prerequisites tab. You can explore the page and then click on the **Next: Server details** from the bottom. 
      
    > **Note**: We have already completed the prerequisite part for you.  
      
    ![](media/cncsqlarcserveradd.png) 
     
-1. On the **Server Details** blade, enter the details below and click on **Next: Tags (7)**:
+1. In the **Server details** tab, enter the details below and click on **Next: Tags (7)**:
    
      - **Subscription**: Select the default subscription. **(1)**
      - **Resource group**: Select **sql-arc** from dropdown list. **(2)**
-     - **Region**: **<inject key="Region" enableCopy="false"/>**. **(3)**
-     - **Operating Systems**: Select **Windows**. **(4)**
+     - **Region**: **<inject key="Region" enableCopy="false"/>(3)**
+     - **Operating system**: Select **Windows**. **(4)**
      - **Server Name**: Enter **SQLVM** **(5)**
-     - **License Type**: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**. **(6)**
+     - **License Type**: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")(6)**
       
       ![](media/az-ex1-1.png)
          
-1. Leave the default for tags blade and click on **Next: Run Script**.
+1. In the tags tags keep it defaut and click on **Next: Run script**.
 
     ![](media/az-ex1-2.png) 
   
-1. On the **Script** blade, explore the given script, copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
+1. In the **Run script** tab, explore the given script under Download or copy the following script, copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
        
       ![](media/dwnloadscriptss.png) 
 
 1. Minimize the Browser window.  
 
-1. In the **LABVM**, on the **Windows Search bar** ,search for **Hyper-V** and select **Hyper-V Manager**. 
+1. In the **LABVM**, on the **Windows Search bar** ,search for **Hyper-v** and select **Hyper-V Manager**. 
  
       ![](media/EX1-T1-S1.png "search hyperv") 
  
-1. Then, you need to Select **SQL-ARC** VM to connect with the Local Hyper-V server. 
+1. From the left pane select **SQL-ARC** to connect with the Local Hyper-V server. 
  
       ![](media/hyperv-sql-arc.png "select server") 
  
-1. On the Hyper-V manager, you will find multiple guest virtual machines available. Open **sqlvm** from the Hyper-V Manager by double clicking on **sqlvm**. 
+1. On the Hyper-V manager, under Virtual Machines you will find multiple guest virtual machines available. Open **sqlvm** by double clicking on **sqlvm**.
  
       ![](media/sql-vm01.png "open VM")  
 
