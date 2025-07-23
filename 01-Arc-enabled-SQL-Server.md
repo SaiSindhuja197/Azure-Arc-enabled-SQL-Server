@@ -12,6 +12,8 @@ In this lab, you will complete the following tasks:
 - Task 2: Register Azure Arc-enabled SQL Server
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
+ 
+In this task, you will connect SQL server instance from Azure Portal to you Hyper-V Manager through powershelll
 
 1. In the LabVM click on **Azure Portal** from the desktop to open, from the search bar at the top search for **SQL Server(1)** and then select **SQL Server - Azure Arc** **(2)**.
   
