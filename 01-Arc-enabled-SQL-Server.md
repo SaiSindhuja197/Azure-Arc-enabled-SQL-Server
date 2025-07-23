@@ -72,7 +72,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
  
       ![](media/EX1-T1-S5.png "open VM") 
  
-1. Enter the password **demo@pass123** and press **Enter** to login. Feel free tocresize the sqlvm window size at your convenience. 
+1. Enter the password **demo@pass123** and press **Enter** to login. Feel free to resize the sqlvm window as your convenience. 
  
       ![](media/EX1-T1-S6.png "open VM") 
              
@@ -102,7 +102,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
  
     ![](media/az-ex1-4.png) 
   
-1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username (1)** and then click on **Next (2)**.  
+1. On the **Sign in** tab, you're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username (1)** and then click on **Next (2)**.  
    * Email/Username: <inject key="AzureAdUserEmail"></inject> 
    
        ![](media/az-ex1-5.png "Enter Email")
@@ -125,13 +125,13 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
 
     ![](media/sqlvm-min.png) 
 
-1. Bring back the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step. 
+1. Go back to the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the **Refresh button**. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step. ***update sss**
  
     ![](media/az-ex1-6.png) 
 
     > **Note**: If you are not able to view **SQLVM** SQL Server instances wait for 5 minutes and keep refreshing the page.
    
-1. Select the **SQLVM** resource and now you can see the dashboard of **SQLVM** SQL Server -Azure Arc from Azure Portal. 
+1. Select the **SQLVM** resource and now you can see the Overview of **SQLVM** SQL Server -Azure Arc from Azure Portal. 
  
     ![](media/sqlvmdashaboardss.png)    
 
