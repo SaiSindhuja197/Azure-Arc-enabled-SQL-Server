@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
  
 In this task, you will connect SQL server instance from Azure Portal to you Hyper-V Manager through powershelll
 
-1. In the LabVM click on **Azure Portal** from the desktop to open, from the search bar at the top search for **SQL Server(1)** and then select **SQL Server - Azure Arc** **(2)**.
+1. In the LabVM click on **Azure Portal** from the desktop to to launch Azure portal, from the search bar at the top search for **SQL Server(1)** and then select **SQL Server - Azure Arc** **(2)**.
   
    ![](media/EX1-Task1-Step2.png) 
     
