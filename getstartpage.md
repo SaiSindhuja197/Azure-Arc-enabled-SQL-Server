@@ -87,13 +87,13 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
  
    ![](media//portal.png)
 
-1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following email/username **(1)**, and click on **Next (2)**. 
+1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following **email/username** , and click on **Next**. 
 
    * **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    
       ![](media/signin.png)
      
-1. Now enter the following password **(1)** and click on **Sign in (2)**.
+1. Now enter the following **password** and click on **Sign in**.
    
    * **Password:** <inject key="AzureAdUserPassword"></inject>
    
@@ -111,23 +111,6 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    ![](media/cancel.png)
    
-1. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
-
-   ![](./images/9-7-25-g5.png "Resource groups")
-   
-1. Confirm that you have all resource groups present as shown below.
-
-   ![](./images/rg-new.png "Resource groups")
-   
-1. Verify the resources deployed in the resource group.
-
-   ![](./images/9-7-25-g6.png "Resource groups")
-   
-> [!IMPORTANT]
-*For a smoother experience during the hands-on lab, it's important to thoroughly review both the instructions and the accompanying notes. This will help you navigate through the tasks with ease and confidence.*
-
-This hands-on lab will guide you in using Azure’s advanced tools, including OpenAI LLM, Azure AI Search, and Azure AI Document Intelligence, to create intelligent systems that enhance productivity and deliver personalized experiences.
-
 ## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
 
 1. At the **"More information required"** prompt, select **Next**.
