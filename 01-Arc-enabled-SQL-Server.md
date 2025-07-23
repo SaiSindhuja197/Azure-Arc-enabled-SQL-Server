@@ -21,11 +21,11 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
     
 1. From the left pane on Azure Arc | SQL Server instances, under Data services select **SQL Server instances**, then click on the **+ Add (2)** to create the **SQL Server- Azure Arc (1)**.  
   
-   ![](media/AzureArcsql.png) 
+   ![](media/azureacr.png) 
     
 1. In the Add existing SQL Servers instances page, click on **Connect SQL Server instances**. 
  
-   ![](media/connectsql.png) 
+   ![](media/sqlcnt.png) 
     
 1. In Connect SQL Server enabled by Azure Arc under the Prerequisites tab, you can explore the page and then click on the **Next: Server details** from the bottom. 
      
@@ -144,4 +144,4 @@ In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerSh
 
 Now, click on **Next >>** from the lower right corner to move on to the next lab.
 
-![](../images/nextpage.png)
+![](media/nextpage.png)
