@@ -137,8 +137,11 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
 
     <validation step="f00aaa9f-7a98-4314-9310-a1fcd61130aa" />
 
+
 ## Summary
 
-In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal. 
+In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal
 
-### You have successfully completed the lab. Click on **Next >>** to procced with next exercise.
+Now, click on **Next >>** from the lower right corner to move on to the next lab.
+
+![](../images/nextpage.png)
