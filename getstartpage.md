@@ -51,7 +51,7 @@ Welcome to your Azure Arc-enabled SQL Servers - Single Pane of Glass workshop! W
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
- ![](./images/9-7-25-g1.png)
+ ![](media/guide.png)
 
 ## Virtual Machine & Lab Guide
 
@@ -61,53 +61,55 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get the lab environment details, you can select the **Environment** tab. Additionally, the credentials will also be emailed to your registered email address.
 
- ![](./images/13062025(2).png)
+ ![](media/envi.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
- ![](./images/13062025(3).png)
+ ![](media/splitwindow.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-   ![](./images/13062025(4).png)
+   ![](media/resourcetab.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-![Zoom In/Zoom Out](./images/size-new.png)  
+![Zoom In/Zoom Out](media/labzoom.png)  
  
 ## Let's Get Started with Azure Portal
  
 1. On your virtual machine, click on the **Azure Portal** icon as shown below:
  
-   ![](./images/13062025(5).png)
+   ![](media//portal.png)
 
 1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following email/username **(1)**, and click on **Next (2)**. 
 
    * **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    
-      ![](./images/9-7-25-g2.png)
+      ![](media/signin.png)
      
 1. Now enter the following password **(1)** and click on **Sign in (2)**.
    
    * **Password:** <inject key="AzureAdUserPassword"></inject>
    
-      ![](./images/9-7-25-g3.png "Enter Password")
+      ![](media/password.png)
 
 1. If you see the pop-up Action Required, click **Ask Later**.
 
-   ![](../images/asklater.png)
+   ![](media/asklater.png)
    
 1. If you see the pop-up **Stay signed in?**, select **No**.
 
-   ![](./images/9-7-25-g4.png)
+   ![](media/signedinno.png)
 
 1. If a **Welcome to Microsoft Azure** popup window appears, select **Cancel** to skip the tour.
+
+   ![](media/cancel.png)
    
 1. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
