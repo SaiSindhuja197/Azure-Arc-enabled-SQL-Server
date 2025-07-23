@@ -13,13 +13,13 @@ In this lab, you will complete the following tasks:
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
  
-In this task, you will connect SQL server instance from Azure Portal to you Hyper-V Manager through powershelll
+In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azure using Azure Arc, so it can be managed like a native Azure resource. The script installs the Azure Arc SQL extension to enable this connection.
 
 1. In the LabVM click on **Azure Portal** from the desktop to to launch Azure portal, from the search bar at the top search for **SQL Server(1)** and then select **SQL Server - Azure Arc** **(2)**.
   
    ![](media/EX1-Task1-Step2.png) 
     
-1. From the left pane on Azure Arc |SQL Server instances, under Data services select **SQL Server instances**, click on the **+ Add (2)** to create the **SQL Server- Azure Arc (1)**.  
+1. From the left pane on Azure Arc | SQL Server instances, under Data services select **SQL Server instances**, then click on the **+ Add (2)** to create the **SQL Server- Azure Arc (1)**.  
   
    ![](media/addinstancesqlsm.png) 
     
@@ -27,7 +27,7 @@ In this task, you will connect SQL server instance from Azure Portal to you Hype
  
    ![](media/cnctsqlinstancessd.png) 
     
-1. In Connect SQL Server enabled by Azure Arc under the Prerequisites tab. You can explore the page and then click on the **Next: Server details** from the bottom. 
+1. In Connect SQL Server enabled by Azure Arc under the Prerequisites tab, you can explore the page and then click on the **Next: Server details** from the bottom. 
      
    > **Note**: We have already completed the prerequisite part for you.  
      
@@ -48,7 +48,7 @@ In this task, you will connect SQL server instance from Azure Portal to you Hype
 
     ![](media/az-ex1-2.png) 
   
-1. In the **Run script** tab, explore the given script under Download or copy the following script, copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
+1. In the **Run script** tab, explore the given script under **Download or copy the following script**. Then copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
        
       ![](media/dwnloadscriptss.png) 
 
