@@ -50,7 +50,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
   
 1. In the **Run script** tab, explore the given script under **Download or copy the following script**. Then copy the script by clicking **Copy to Clipboard**, paste the code into the notepad. Later we will be using this PowerShell script to **Register Azure Arc enabled SQL Server**.  
        
-      ![](media/dwnloadscriptss.png) 
+      ![](media/copytoclip.png) 
 
 1. Minimize the Browser window.  
 
@@ -119,7 +119,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
  
 1. In 5-10 minutes, you will see that the script execution is completed. Make sure that you see the following output: ```SQL Server is successfully installed``` 
  
-    ![](media/Ex1-Task2-Step10.png) 
+    ![](media/sqlsuccess.png) 
 
 1. **Minimize** the sqlvm on SQL-ARC Hyper-V.   
 
@@ -142,6 +142,6 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
 
 In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal
 
-Now, click on **Next >>** from the lower right corner to move on to the next lab.
+Now, click on **Next >>** from the lower right corner to move on to the next exercise.
 
 ![](media/nextpage.png)
