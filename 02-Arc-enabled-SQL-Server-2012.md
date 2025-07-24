@@ -51,7 +51,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
 
    ![](media/az-ex1-2.png)
   
-1. In the **Run script** tab, explore the given script under **Download or copy the following script**. Then copy the script by clicking **Copy to Clipboard**, paste the code into the notepad. Later we will be using this PowerShell script to **Register Azure Arc enabled SQL Server**.  
+1. In the **Run script** tab, explore the given script under **Download or copy the following script**. Then copy the script by clicking **Copy to Clipboard(1)**, paste the code into the notepad. Later we will be using this PowerShell script to **Register Azure Arc enabled SQL Server**.  
        
       ![](media/copytoclip.png) 
 
