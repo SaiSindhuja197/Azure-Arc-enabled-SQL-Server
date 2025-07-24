@@ -122,8 +122,8 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
  
     ![](media/Ex1-Task2-Step9.png) 
  
-1. In 5-10 minutes, you will see that the script execution is completed. Make sure that you see the following output: ```SQL Server is successfully installed``` 
- 
+1. In 5-10 minutes, you will see that the script execution is completed. Make sure that you see the following output: **SQL Server is successfully installed** 
+
     ![](media/sqlsuccess.png) 
 
 1. Minimize the sqlvm2016 on SQL-ARC VM. 
