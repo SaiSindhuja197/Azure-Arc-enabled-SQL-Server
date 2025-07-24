@@ -15,6 +15,8 @@ You will be able to complete the following tasks:
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
 
+In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azure using Azure Arc, so it can be managed like a native Azure resource. The script installs the Azure Arc SQL extension to enable this connection.
+
 1. In the Azure portal, click on the search tab at the top and search for **SQL Server(1)**, then select **SQL Server - Azure Arc(2)**. 
   
    ![](media/EX1-Task1-Step2.png) 
@@ -160,6 +162,8 @@ The task enables best practices assessment for an Azure Arc-enabled SQL Server b
    ![](media/BPA-select-assessmet-output.png)
 
 ## Task 4: Enable Microsoft Defender for SQL
+
+in this task we are going to enable Microsoft Defender for SQL to provide advanced threat protection for Azure Arc-enabled SQL Servers. Once enabled, it starts showing security recommendations, incidents, and alerts in the Azure Security Center.
 
 1. Navigate to the previous tab **SQLVM2016_CB2016SQLSERVER | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable** **(2)** button.
 
