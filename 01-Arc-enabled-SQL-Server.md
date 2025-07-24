@@ -117,7 +117,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
  
     ![](media/Ex1-Task2-Step9.png) 
  
-1. In 5-10 minutes, you will see that the script execution is completed. Make sure that you see the following output: ```SQL Server is successfully installed``` 
+1. In 5-10 minutes, you will see that the script execution is completed. Make sure that you see the following output: **SQL Server is successfully installed** 
  
     ![](media/sqlsuccess.png) 
 
@@ -125,7 +125,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
 
     ![](media/sqlvm-min.png) 
 
-1. Go back to the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the **Refresh button**. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step. ***update sss**
+1. Go back to the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM** that we just created using the PowerShell script in the previous step. 
  
     ![](media/az-ex1-6.png) 
 
