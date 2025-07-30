@@ -15,45 +15,49 @@ You will be able to complete the following tasks:
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
 
-1. In the Azure portal, click on the search blade at the top and search for ```SQL Server``` **(1)**. Then select **SQL Server - Azure Arc** **(2)**. 
+In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azure using Azure Arc, so it can be managed like a native Azure resource. The script installs the Azure Arc SQL extension to enable this connection.
+
+1. In the Azure portal, click on the search tab at the top and search for **SQL Server(1)**, then select **SQL Server - Azure Arc(2)**. 
   
    ![](media/EX1-Task1-Step2.png) 
     
-1. Click on the **+ Add** to create the **SQL Server- Azure Arc**.  
+1. From the left pane on Azure Arc | SQL Server instances, under Data services select **SQL Server instances**, then click on the **+ Add (2)** to create the **SQL Server- Azure Arc (1)**.  
+  
+   ![](media/azureacr.png)
     
-1. In the Adding existing SQL Servers instances page, click on **Connect SQL Servers instances**. 
+1. In the Add existing SQL Servers instances page, click on **Connect SQL Servers instances**. 
  
    ![](media/cnctsqlinstancessd.png) 
     
-1. You will now see the prerequisite page. You can explore the page and then click on the **Next: Server details** option. 
+1. In Connect SQL Server enabled by Azure Arc explore the Prerequisites tab and then click on the **Next: Server details**. 
      
-   > **Note**: We have already completed the prerequisite part for you.  
+   > **Note**: We have already completed the prerequisites part for you.  
      
    ![](media/cncsqlarcserveradd.png) 
     
-1. On the **Server Details** blade, enter the details below. 
+1. On the **Server Details** tab, enter the details below. 
   
      - **Subscription**: Select the default subscription. **(1)**
-     - Resource group: Select **sql-arc** from dropdown list.  **(2)**
-     - Region: **<inject key="Region" enableCopy="false"/>**.  **(3)**
-     - Operating Systems: Select **Windows**.  **(4)**
-     - Server Name: Enter **SQLVM2016** **(5)**
-     - License Type: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")**.  **(6)**
+     - **Resource group**: Select **sql-arc** from dropdown list.**(2)**
+     - **Region**: **<inject key="Region" enableCopy="false"/>(3)**
+     - **Operating Systems**: Select **Windows(4)**
+     - **Server Name**: Enter **SQLVM2016(5)**
+     - **License Type**: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")(6)**
      - Now, click on the **Next: Tags (7)** button. 
     
    ![](media/az-ex2-1.png) 
     
-1. Leave the default for tags blade and click on **Next: Run Script** button.
+1. In the Tags tab keep it default and click on **Next: Run script**.
 
    ![](media/az-ex1-2.png)
   
-1. On the **Script** blade, explore the given script, copy the script by clicking **Copy to Clipboard** paste the code into the notepad. We will be using this PowerShell script to **Register Azure Arc enabled SQL Server** later.  
+1. In the **Run script** tab, explore the given script under **Download or copy the following script**. Then copy the script by clicking **Copy to Clipboard(1)**, paste the code into the notepad. Later we will be using this PowerShell script to **Register Azure Arc enabled SQL Server**.  
        
-      ![](media/dwnloadscriptss.png) 
+      ![](media/copytoclip.png) 
 
 1. Minimize the Browser window.  
 
-1. In the **LABVM**, open the **Start menu** and search for **Hyper-V**. Select **Hyper-V Manager**. 
+1. In the **LABVM**, open the **Start menu** and search for **Hyper-v**. Select **Hyper-V Manager**. 
  
       ![](media/EX1-T1-S1.png "search hyperv") 
  
@@ -61,23 +65,25 @@ You will be able to complete the following tasks:
  
       ![](media/hyperv-sql-arc.png "select server") 
  
-1. On the Hyper-V manager, you will find multiple guest virtual machines available. Open **sqlvm2016** from the Hyper-V Manager by double clicking on **sqlvm2016**.
+1. In the Hyper-V manager, under Virtual Machines you will find multiple guest virtual machines available. Open **sqlvm2016** from the Hyper-V Manager by double clicking on **sqlvm2016**.
  
-      ![](media/sql-vm-12.png "open VM")  
+      ![](media/sqlvm2016.png)  
 
    >**Note**: Please start the **sqlvm2016** if it is stopped state.
  
-1. Connect to the sqlvm2016 box, and then click on the **Connect** button. 
+1. In the pop up Connect to the sqlvm2016 click on **Connect**. 
  
       ![](media/sqlvm12-connect.png "open VM") 
  
-1. Type password **demo@pass123** and press **Enter** button to login. Then, you can resize the sqlvm2016 window size at your convenience. 
+1. Enter the password **demo@pass123** and press **Enter** button to login. Feel free to resize the sqlvm2016 window as your convenience. 
  
       ![](media/EX1-T1-S6.png "open VM")
 
 ## Task 2: Register Azure Arc-enabled SQL Server
-  
-1. From the start menu of the sqlvm2016, search for **PowerShell (1)**, and right click on **Windows PowerShell ISE (2)** and select **Run as Administrator (3)**.
+
+ In this task you will be registering an Azure Arc-enabled SQL Server which connects your on-premises SQL Server instance to Azure for centralized management. 
+ 
+1. From the start menu of the sqlvm2016, search for **powerShell (1)**, and right click on **Windows PowerShell ISE (2)** and select **Run as administrator (3)**.
   
    ![](media/az-ex1-3.png) 
    
@@ -85,7 +91,7 @@ You will be able to complete the following tasks:
   
     ![](media/Ex1-Task2-Step3.png)        
  
-1. The script you copied on **step 7 of task 1** must be pasted in **Script Pane (1)** and click on **Run Script (2)**. 
+1. Paste the script which was copied in **Task 1 Step 7** in **Script Pane(1)** and click on **Run Script (2)**. 
  
     ![](media/Ex1-Task2-Step4.png)  
       
@@ -97,7 +103,7 @@ You will be able to complete the following tasks:
  
     ![](media/Ex1-Task2-Step6.png) 
  
-1. In Hyper-V VM, use a web browser to open the page **https://microsoft.com/devicelogin**, enter the **authenticate code (1)** and click on **Next (2)**.  
+1. In Hyper-v VM, use a web browser to open the page **https://microsoft.com/devicelogin**, then enter the **authenticate code (1)** and click on **Next (2)**.  
  
     ![](media/az-ex1-4.png) 
   
@@ -106,7 +112,7 @@ You will be able to complete the following tasks:
    
        ![](media/az-ex1-5.png "Enter Email")
     
-1. Now, enter the **Password (1)** that you have already received for the above account. and click on **Sign in (2)** 
+1. Now, enter the **Password (1)** that you have already received for the above account and click on **Sign in (2)** 
       
    * Password: <inject key="AzureAdUserPassword"></inject> 
 
@@ -116,31 +122,33 @@ You will be able to complete the following tasks:
  
     ![](media/Ex1-Task2-Step9.png) 
  
-1. In 5-10 minutes, you will see that the script execution is completed. Make sure that you see the following output: ```SQL Server is successfully installed``` 
- 
-    ![](media/Ex1-Task2-Step10.png) 
+1. In 5-10 minutes, you will see that the script execution is completed. Make sure that you see the following output: **SQL Server is successfully installed** 
 
-1. Minimize the sqlvm2016 on SQL-ARC VM.   
+    ![](media/sqlsuccess.png) 
 
-    ![](media/min-sqlvm2012.png)
+1. Minimize the sqlvm2016 on SQL-ARC VM. 
+
+    ![](media/sqlv.png)
 
 ## Task 3: Enable Best practices assessment
 
+In this task you will learn to enable best practices assessment for an Azure Arc-enabled SQL Server by linking it to a Log Analytics workspace. This allows us to analyze the SQL Server configuration and provide health and optimization recommendations.
+
 1. Navigate to the browser tab where the **Azure Portal** is open and search for **SQL Server - Azure Arc**.
    
-1. Click on **SQL Servers instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016_CB2016SQLSERVER** **(2)** instance. 
+1. In Azure Arc | SQL Server instances click on **SQL Servers instances** **(1)** under **Data Service** section from left-menu and select the **SQLVM2016_CB2016SQLSERVER** **(2)** instance. 
 
    ![](media/az-ex2-2.png)
 
    > **Note**: If you are not able to view **SQLVM2016_CB2016SQLSERVER** SQL Server instances wait for 15-20 minutes and keep refreshing the page.
 
-1. Click on **Best practices assessment** **(1)** under **Settings** section from left-menu, select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>** **(2)** Log Analytics workspaces from drop-down, and click on **Enable assessment**  **(3)**.
+1. Click on **Best practices assessment(1)** under **Settings** section from left-menu, from Log Analytics workspaces select the **Arc-SQL-workspace-<inject key="Deployment ID" enableCopy="false"/>(2)** from drop-down, and click on **Enable assessment(3)**.
    
     ![](media/Best-practices-assessment.png)
    
    > **Note**: Please wait while assessment settings are being refreshed. It will initiate and redirect to the deployments page.   
 
-1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page. Once you are in **SQLVM2016_CB2016SQLSERVER | Best practices assessment** blade, click on **Run assessment**.
+1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page. Once you are in **SQLVM2016_CB2016SQLSERVER | Best practices assessment** tab, click on **Run assessment**.
 
     ![](media/Best-practices-assessment1.png)
 
@@ -150,7 +158,7 @@ You will be able to complete the following tasks:
 
 1. Once the assessment results status changes to **Partially Succeeded** or **Succeeded** , click on the **start date** to view results. 
 
-   ![](media/BPA-select-assessmet-result.png)
+   ![](media/datestart.png)
 
 1. On the **SQL best practices assessment results** page you will able to view and explore the assessment result.
 
@@ -158,17 +166,19 @@ You will be able to complete the following tasks:
 
 ## Task 4: Enable Microsoft Defender for SQL
 
+in this task we are going to enable Microsoft Defender for SQL to provide advanced threat protection for Azure Arc-enabled SQL Servers. Once enabled, it starts showing security recommendations, incidents, and alerts.
+
 1. Navigate to the previous tab **SQLVM2016_CB2016SQLSERVER | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under **Security** section from left menu, and click on **Enable** **(2)** button.
 
    ![](media/sqlvm-defender-for-cloud.png)
 
    > **Note:** Skip this step if Microsoft Defender for Cloud is already enabled for your subscription.
 
-1. On **Microsoft Defender for Cloud** page, click on **Environment settings** **(1)** under **Management** from the left menu and expand the **Tenant root group** **(2)**, click on **eclipse** **(3)** button next to your subscriptions, and click on **Edit settings** **(4)**.
+1. On Microsoft Defender for Cloud page, click on **Environment settings** **(1)** under **Management** from the left menu and expand the **Tenant root group** **(2)**, click on **eclipse** **(3)** button next to your subscriptions, and click on **Edit settings** **(4)**.
 
    ![](media/ms-defender-edit.png)
 
-1. On **Settings | Defender plans** page, set the toggle button next to **Databases** to **On** **(1)**, and click on **Save** **(2)**.
+1. On **Settings | Defender plans** page, set the toggle button next to **Databases** to **On** **(1)** and then click on **Save** **(2)**.
 
    ![](media/enabling-database.png) 
 
@@ -182,4 +192,6 @@ You will be able to complete the following tasks:
 
 In this exercise, you onboarded an on-prem SQL Server to Azure Arc using PowerShell commands to Azure Portal, enabled Best practices assessment and Microsoft Defender for SQL.
 
-### You have successfully completed the lab. Click on **Next >>** to procced with next exercise.
+Now, click on **Next >>** from the lower right corner to move on to the next exercise.
+
+![](media/nextpage.png)

@@ -4,9 +4,9 @@
 
 ## Overview
 
-Contoso, a global retail company, operates SQL Server databases across various on-premises data centers and remote locations. To streamline management and enhance visibility, Contoso participates in the Azure Arc-enabled SQL Servers - Single Pane of Glass. The workshop guides Contoso through the process of connecting its SQL Server instances to Azure Arc, enabling unified management through the Azure portal.
+Contoso, a global retail company, operates SQL Server databases across various on-premises data centers and remote locations. To streamline management and enhance visibility, Contoso participates in the Azure Arc enabled SQL Servers - Single Pane of Glass. The workshop guides Contoso through the process of connecting its SQL Server instances to Azure Arc, enabling unified management through the Azure portal.
 
-The Azure Arc-enabled SQL Servers - Single Pane of Glass demonstrates how to extend Azure management capabilities to SQL Server instances running on-premises or in other cloud environments. By leveraging Azure Arc, you can centrally manage and govern SQL Server deployments with Azure’s tools and services, regardless of their location.
+The Azure Arc enabled SQL Servers - Single Pane of Glass demonstrates how to extend Azure management capabilities to SQL Server instances running on-premises or in other cloud environments. By leveraging Azure Arc, you can centrally manage and govern SQL Server deployments with Azure’s tools and services, regardless of their location.
 
 ## Objective
 
@@ -48,46 +48,94 @@ The architecture for this lab involves several key components:
 Welcome to your Azure Arc-enabled SQL Servers - Single Pane of Glass workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
-
-1. You can see a virtual machine desktop 💻 (**LABVM**) is loaded on the left side in your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment** tab.
-
-   ![](media/sqlarcLABVM.png) 
-   
-   >Note: If you see any PowerShell windows running in your VM, please do not close them as they are setting up some configurations inside the environment.
  
-1. To get the lab environment details, you can select the **Environment** tab. Additionally, the credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
-   ![](media/getstartpage02.png "Enter Email")
+ ![](media/guide.png)
+
+## Virtual Machine & Lab Guide
+
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+
+## Exploring Your Lab Resources
  
-   > You will see the **SUFFIX** value on the **Environment** tab, use it wherever you see **SUFFIX** or **DeploymentID** in lab steps.
+To get the lab environment details, you can select the **Environment** tab. Additionally, the credentials will also be emailed to your registered email address.
+
+ ![](media/envi.png)
+ 
+## Utilizing the Split Window Feature
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+ 
+ ![](media/splitwindow.png)
+ 
+## Managing Your Virtual Machine
+ 
+Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
+
+   ![](media/resourcetab.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
-To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-   ![](media/labzoom-1.png)
-
+![Zoom In/Zoom Out](media/labzoom.png)  
+ 
 ## Let's Get Started with Azure Portal
+ 
+1. On your virtual machine, click on the **Azure Portal** icon as shown below:
+ 
+   ![](media//portal.png)
 
-1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser which is created on the desktop.
+1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following **email/username** , and click on **Next**. 
 
-   ![](media/getstartpage03.png "Enter Email")
+   * **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    
-1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following email/username, and click on **Next**. 
-
-   * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
-   
-      ![](media/getstartpage04.png "Enter Email")
+      ![](media/signin.png)
      
-1. Now enter the following password and click on **Sign in**.
+1. Now enter the following **password** and click on **Sign in**.
    
-   * **Password**: <inject key="AzureAdUserPassword"></inject>
+   * **Password:** <inject key="AzureAdUserPassword"></inject>
    
-      ![](media/getstartpage05.png "Enter Password")
+      ![](media/password.png)
 
-1. If you see the pop-up Action Required, click Ask Later.
+1. If you see the pop-up Action Required, click **Ask Later**.
 
    ![](media/asklater.png)
+   
+1. If you see the pop-up **Stay signed in?**, select **No**.
+
+   ![](media/signedinno.png)
+
+1. If a **Welcome to Microsoft Azure** popup window appears, select **Cancel** to skip the tour.
+
+   ![](media/cancel.png)
+   
+## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
+
+1. At the **"More information required"** prompt, select **Next**.
+
+1. On the **"Keep your account secure"** page, select **Next** twice.
+
+1. **Note**: If you don’t have the Microsoft Authenticator app installed on your mobile device:
+
+   - Open Google Play Store (Android) or App Store (iOS).
+
+   - Search for Microsoft Authenticator and tap Install.
+       
+   - Open the Microsoft Authenticator app, select Add account, then choose Work or school account.
+
+1. A **QR code** will be displayed on your computer screen.
+
+1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
+
+1. After scanning, click **Next** to proceed.
+
+1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
+
+1. If you see the pop-up **Stay signed in?**, select **No**.
+
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
 
    >**NOTE:** Do not enable MFA, select **Ask Later**.
      
@@ -115,7 +163,7 @@ Learner Support Contacts:
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-Now, click on **Next** from the lower right corner to move on to the next page.
+Now, click on **Next>>** from the lower right corner to move on to the next page.
 
 ![](media/lab-next.png)
 
