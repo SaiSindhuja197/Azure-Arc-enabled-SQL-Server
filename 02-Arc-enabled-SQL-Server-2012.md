@@ -10,7 +10,7 @@ You will be able to complete the following tasks:
 
 - Task 1: Log in to the Azure Portal in SQL Server via Hyper-V Manager
 - Task 2: Register Azure Arc-enabled SQL Server
-- Task 3: Enable  Best practices assessment
+- Task 3: Enable Best practices assessment
 - Task 4: Enable Microsoft Defender for SQL
  
 ## Task 1: Log in to Azure Portal in SQL Server via Hyper-V Manager 
@@ -21,7 +21,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
   
    ![](media/EX1-Task1-Step2.png) 
     
-1. From the left pane on Azure Arc | SQL Server instances, under Data services select **SQL Server instances**, then click on the **+ Add (2)** to create the **SQL Server-    Azure Arc (1)**.  
+1. From the left pane on Azure Arc | SQL Server instances, under Data services select **SQL Server instances**, then click on the **+ Add (2)** to create the **SQL Server-Azure Arc (1)**.  
   
    ![](media/azureacr.png)
     
@@ -51,7 +51,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
 
    ![](media/az-ex1-2.png)
   
-1. In the **Run script** tab, explore the given script under **Download or copy the following script**. Then copy the script by clicking **Copy to Clipboard(1)**, paste       the code into Notepad. Later, we will be using this PowerShell script to **Register Azure Arc enabled SQL Server**.  
+1. In the **Run script** tab, explore the given script under **Download or copy the following script**. Then copy the script by clicking **Copy to Clipboard(1)**, and paste the code into Notepad. Later, we will be using this PowerShell script to **Register Azure Arc enabled SQL Server**.  
        
    ![](media/copytoclip.png) 
 
@@ -65,13 +65,13 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
  
    ![](media/hyperv-sql-arc.png "select server") 
  
-1. In the Hyper-V manager, under Virtual Machines, you will find multiple guest virtual machines available. Open **sqlvm2016** from the Hyper-V Manager by double-clicking     on **sqlvm2016**.
+1. In the Hyper-V manager, under Virtual Machines, you will find multiple guest virtual machines available. Open **sqlvm2016** from the Hyper-V Manager by double-clicking on **sqlvm2016**.
  
    ![](media/sqlvm2016.png)  
 
    >**Note**: Please start the **sqlvm2016** if it is stopped state.
  
-1. In the pop-up up Connect to the sqlvm2016, click on **Connect**. 
+1. In the pop-up Connect to the sqlvm2016, click on **Connect**. 
  
    ![](media/sqlvm12-connect.png "open VM") 
  
@@ -107,7 +107,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
  
    ![](media/az-ex1-4.png) 
   
-1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username (1)** and then click on        **Next (2)**.  
+1. On the **Sign in** tab, You're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username (1)** and then click on    **Next (2)**.  
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
      ![](media/az-ex1-5.png "Enter Email")
@@ -142,13 +142,13 @@ In this task, you will learn to enable best practices assessment for an Azure Ar
 
    > **Note**: If you are not able to view **SQLVM2016_CB2016SQLSERVER** SQL Server instances wait for 15-20 minutes and keep refreshing the page.
 
-1. Click on **Best practices assessment(1)** under **Settings** section from left-menu, from Log Analytics workspaces select the **Arc-SQL-workspace-<inject                   key="Deployment ID" enableCopy="false"/>(2)** from drop-down, and click on **Enable assessment(3)**.
+1. Click on **Best practices assessment(1)** under **Settings** section from left-menu, from Log Analytics workspaces select the **Arc-SQL-workspace-<inject  key="Deployment ID" enableCopy="false"/>(2)** from drop-down, and click on **Enable assessment(3)**.
    
    ![](media/Best-practices-assessment.png)
    
    > **Note**: Please wait while assessment settings are being refreshed. It will initiate and redirect to the deployments page.   
 
-1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page.      Once you are in **SQLVM2016_CB2016SQLSERVER | Best practices assessment** tab, click on **Run assessment**.
+1. Once the deployment is completed move back to the previous tab **SQL Server - Azure Arc** by clicking on **X** from the top right corner page of the deployments page. Once you are in **SQLVM2016_CB2016SQLSERVER | Best practices assessment** tab, click on **Run assessment**.
 
    ![](media/Best-practices-assessment1.png)
 
@@ -168,13 +168,13 @@ In this task, you will learn to enable best practices assessment for an Azure Ar
 
 In this task, we are going to enable Microsoft Defender for SQL to provide advanced threat protection for Azure Arc-enabled SQL Servers. Once enabled, it starts showing security recommendations, incidents, and alerts.
 
-1. Navigate to the previous tab **SQLVM2016_CB2016SQLSERVER | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under      **Security** section from left menu, and click on **Enable** **(2)** button.
+1. Navigate to the previous tab **SQLVM2016_CB2016SQLSERVER | Best practices assessment** by click on **X**, then click on **Microsoft Defender for Cloud** **(1)** under  **Security** section from left menu, and click on **Enable** **(2)** button.
 
    ![](media/sqlvm-defender-for-cloud.png)
 
    > **Note:** Skip this step if Microsoft Defender for Cloud is already enabled for your subscription.
 
-1. On Microsoft Defender for Cloud page, click on **Environment settings** **(1)** under **Management** from the left menu and expand the **Tenant root group** **(2)**,       click on **eclipse** **(3)** button next to your subscriptions, and click on **Edit settings** **(4)**.
+1. On Microsoft Defender for Cloud page, click on **Environment settings** **(1)** under **Management** from the left menu and expand the **Tenant root group** **(2)**, click on **eclipse** **(3)** button next to your subscriptions, and click on **Edit settings** **(4)**.
 
    ![](media/ms-defender-edit.png)
 
