@@ -51,7 +51,7 @@ Welcome to your Azure Arc-enabled SQL Servers - Single Pane of Glass workshop! W
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
- ![](media/guide.png)
+![](media/guide.png)
 
 ## Virtual Machine & Lab Guide
 
@@ -61,19 +61,19 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get the lab environment details, you can select the **Environment** tab. Additionally, the credentials will also be emailed to your registered email address.
 
- ![](media/envi.png)
+![](media/envi.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
- ![](media/splitwindow.png)
+![](media/splitwindow.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-   ![](media/resourcetab.png)
+![](media/resourcetab.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
