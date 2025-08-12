@@ -15,11 +15,11 @@ In this lab, you will complete the following tasks:
  
 In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azure using Azure Arc, so it can be managed like a native Azure resource. The script installs the Azure Arc SQL extension to enable this connection.
 
-1. In the LabVM, click on **Azure Portal** from the desktop to launch Azure portal, from the search bar at the top search for **SQL Server(1)** and then select **SQL          Server - Azure Arc** **(2)**.
+1. In the LabVM, click on **Azure Portal** from the desktop to launch Azure portal, from the search bar at the top search for **SQL Server(1)** and then select **SQL   Server - Azure Arc** **(2)**.
   
    ![](media/EX1-Task1-Step2.png) 
     
-1. From the left pane on Azure Arc | SQL Server instances, under Data services select **SQL Server instances**, then click on the **+ Add (2)** to create the **SQL Server-    Azure Arc (1)**.  
+1. From the left pane on Azure Arc | SQL Server instances, under Data services select **SQL Server instances**, then click on the **+ Add (2)** to create the **SQL Server Azure Arc (1)**.  
   
    ![](media/azureacr.png) 
     
@@ -45,11 +45,11 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
       
        ![](media/az-ex1-1.png)
          
-1. In the Tags tab keep it default and click on **Next: Run script**.
+1. In the Tags tab, keep it default and click on **Next: Run script**.
 
    ![](media/az-ex1-2.png) 
   
-1. In the **Run script** tab, explore the given script under **Download or copy the following script**. Then copy the script by clicking **Copy to Clipboard(1)**, paste       the code into the Notepad. Later, we will be using this PowerShell script to **Register Azure Arc enabled SQL Server**.  
+1. In the **Run script** tab, explore the given script under **Download or copy the following script**. Then copy the script by clicking **Copy to Clipboard(1)**, and paste  the code into Notepad. Later, we will be using this PowerShell script to **Register Azure Arc enabled SQL Server**.  
        
    ![](media/copytoclip.png) 
 
@@ -103,7 +103,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
  
    ![](media/az-ex1-4.png) 
   
-1. On the **Sign in** tab, you're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username (1)** and then click on        **Next (2)**.  
+1. On the **Sign in** tab, you're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username (1)** and then click on    **Next (2)**.  
    * Email/Username: <inject key="AzureAdUserEmail"></inject> 
    
      ![](media/az-ex1-5.png "Enter Email")
@@ -126,7 +126,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
 
     ![](media/sqlvm-min.png) 
 
-1. Go back to the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the    Refresh button. On that page, you will see one resource **SQLVM**, that we just created using the PowerShell script in the previous step. 
+1. Go back to the browser window where you had opened Azure Portal and search for **SQL Server -Azure Arc**. If you are already on that page, you will need to click on the Refresh button. On that page, you will see one resource **SQLVM**, that we just created using the PowerShell script in the previous step. 
  
    ![](media/az-ex1-6.png) 
 
