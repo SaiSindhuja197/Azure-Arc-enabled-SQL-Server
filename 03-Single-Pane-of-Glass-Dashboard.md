@@ -34,7 +34,7 @@ This task involves creating a centralized dashboard in the Azure Portal to monit
 
 In this task, we will run an Azure Resource Graph query to list all SQL Servers, including Azure Arc-enabled and native Azure SQL Servers, where the results are pinned as a tile on the dashboard.
  
-1. On the Right side of the custom dashboard page, under **Tile Gallery** search for **Resource graph grid tile (1)**, select **Resource graph grid tile (2)**, click on       the **Add (3)** button, then click on **Save (4)**. 
+1. On the Right side of the custom dashboard page, under **Tile Gallery** search for **Resource graph grid tile (1)**, select **Resource graph grid tile (2)**, click on   the **Add (3)** button, then click on **Save (4)**. 
  
    ![](media/Ex2-Task1-Step5.png) 
      
@@ -60,7 +60,7 @@ In this task, we will run an Azure Resource Graph query to list all SQL Servers,
  
    ![](media/Ex2-Task1-Step10.png)  
      
-8. Click on **Run query (1)**, you should see something like the below with the SQL Servers you installed, the **Azure Arc SQL Agent** as well as **Azure SQL Servers** **     (2)** running in Azure and update the tile in the dashboard by selecting **Update pinned part on dashboard (3)**. 
+8. Click on **Run query (1)**, you should see something like the below with the SQL Servers you installed, the **Azure Arc SQL Agent** as well as **Azure SQL Servers** ** (2)** running in Azure and update the tile in the dashboard by selecting **Update pinned part on dashboard (3)**. 
    
    ![](media/az-ex3-1.png) 
           
@@ -68,7 +68,7 @@ In this task, we will run an Azure Resource Graph query to list all SQL Servers,
 
 In this, you will add a Resource Graph Grid tile that visualizes the number of servers by their location in a chart format. It helps quickly identify the distribution of Azure and Arc-enabled servers across regions on the Azure dashboard.
  
-1. In Dashboard page, click on **Edit**, under **Tile Gallery** search for **resource graph chart tile (1)**, select **Resource graph chart tile (2)**, click on **Add         (3)** then click on **Save (4)**. 
+1. In Dashboard page, click on **Edit**, under **Tile Gallery** search for **resource graph chart tile (1)**, select **Resource graph chart tile (2)**, click on **Add     (3)** then click on **Save (4)**. 
  
    ![](media/Ex2-Task3-Step1.png) 
      
@@ -98,7 +98,7 @@ In this, you will add a Resource Graph Grid tile that visualizes the number of s
      
    ![](media/az-ex3-3.png)  
  
-9. Your dashboard should look like the one below. You can resize each individual tile and arrange them however you like on your new dashboard by clicking edit at the top      of the dashboard. 
+9. Your dashboard should look like the one below. You can resize each individual tile and arrange them however you like on your new dashboard by clicking edit at the top  of the dashboard. 
      
    ![](media/Ex2-Task3-Step8a.png) 
      
