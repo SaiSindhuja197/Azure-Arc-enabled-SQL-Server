@@ -43,6 +43,7 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
      - **License Type**: Select **I want to license my production environment on this server with Enterprise or Standard edition using pay-as-you-go ("PAYG")(6)**
      - Now, click on the **Next: Tags (7)** button.
       
+
        ![](media/az-ex1-1.png)
          
 1. In the Tags tab, keep it default and click on **Next: Run script**.
@@ -78,7 +79,9 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
    ![](media/EX1-T1-S6.png "open VM") 
              
 ## Task 2: Register Azure Arc-enabled SQL Server
-  
+
+In this task, you will use the previously copied script inside the sql VM that is hosted in Hyper-V manager to connect to the Azure Arc and register the device.
+
 1. From the start menu of the sqlvm, search for **PowerShell (1)**, right click on **Windows PowerShell ISE (2)** and select **Run as administrator (3)**. 
   
    ![](media/az-ex1-3.png) 
@@ -101,22 +104,22 @@ In this task, you are going to connect your on-prem Hyper-V SQL Server VM to Azu
  
 1. In Hyper-v VM, use a web browser to open the page **https://microsoft.com/devicelogin**, enter the **authenticate code (1)** and click on **Next (2)**.  
  
-   ![](media/az-ex1-4.png) 
+   ![](media/Link-code-login.png) 
   
 1. On the **Sign in** tab, you're signing in to **Microsoft Azure Cross-platform Command Line Interface**. Enter the following **Email/Username (1)** and then click on    **Next (2)**.  
    * Email/Username: <inject key="AzureAdUserEmail"></inject> 
    
-     ![](media/az-ex1-5.png "Enter Email")
+     ![](media/corsspf-username.png "Enter Email")
     
 1. Now, enter the **Password (2)** that you have already received for the above account, and click on **Sign in (2)** 
       
    * Password: <inject key="AzureAdUserPassword"></inject> 
 
-      ![](media/sqlarcpassword.png "Enter Password")
+      ![](media/GS4.png "Enter Password")
       
 1. Are you trying to sign into Microsoft Azure CLI? Click on **Continue** and minimize the Browser window. 
  
-   ![](media/Ex1-Task2-Step9.png) 
+   ![](media/crosspf-continue.png) 
  
 1. In 5-10 minutes, you will see that the script execution is completed. Make sure that you see the following output: **SQL Server is successfully installed** 
  

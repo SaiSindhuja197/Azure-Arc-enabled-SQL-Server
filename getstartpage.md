@@ -91,13 +91,13 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    * **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    
-      ![](media/signin.png)
+      ![](media/GS3.png)
      
 1. Now enter the following **password** and click on **Sign in**.
    
    * **Password:** <inject key="AzureAdUserPassword"></inject>
    
-      ![](media/password.png)
+      ![](media/GS4.png)
 
 1. If you see the pop-up Action Required, click **Ask Later**.
 
@@ -105,7 +105,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
    
 1. If you see the pop-up **Stay signed in?**, select **No**.
 
-   ![](media/signedinno.png)
+   ![](media/GS5.png)
 
 1. If a **Welcome to Microsoft Azure** popup window appears, select **Cancel** to skip the tour.
 
