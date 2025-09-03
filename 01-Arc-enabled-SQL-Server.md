@@ -139,7 +139,7 @@ In this task, you will use the previously copied script inside the sql VM that i
  
    ![](media/sqlvmdashaboardss.png)    
 
-    <validation step="f00aaa9f-7a98-4314-9310-a1fcd61130aa" />
+    <validation step="48907d39-a220-479a-a5b5-8cc658b8c56b" />
 
 
 ## Summary
