@@ -139,7 +139,12 @@ In this task, you will use the previously copied script inside the sql VM that i
  
    ![](media/E1T2S13.png)    
 
-   <validation step="48907d39-a220-479a-a5b5-8cc658b8c56b" />
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    <validation step="48907d39-a220-479a-a5b5-8cc658b8c56b" />
 
 
 ## Summary
