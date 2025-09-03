@@ -3,19 +3,19 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/getstartpage.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/SMEC/getstartpage.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/01-Arc-enabled-SQL-Server.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/SMEC/01-Arc-enabled-SQL-Server.md",
       "Order": 2
     },
     {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/02-Arc-enabled-SQL-Server-2012.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/SMEC/02-Arc-enabled-SQL-Server-2012.md",
       "Order": 3
     },
     {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/main/03-Single-Pane-of-Glass-Dashboard.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Azure-Arc-enabled-SQL-Server/SMEC/03-Single-Pane-of-Glass-Dashboard.md",
       "Order": 4
     }
   ]
