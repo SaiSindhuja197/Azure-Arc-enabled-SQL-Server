@@ -176,7 +176,7 @@ In this task, we are going to enable Microsoft Defender for SQL to provide advan
 
    > **Note:** Skip this step if Microsoft Defender for Cloud is already enabled for your subscription.
 
-1. On Microsoft Defender for Cloud page, click on **Environment settings** **(1)** under **Management** from the left menu and expand the **Tenant root group** **(2)**, click on **eclipse** **(3)** button next to your subscriptions, and click on **Edit settings** **(4)**.
+1. Navigate to Microsoft Defender for Cloud page, click on **Environment settings** **(1)** under **Management** from the left menu and expand the **Tenant root group** **(2)**, click on **eclipse** **(3)** button next to your subscriptions, and click on **Edit settings** **(4)**.
 
    ![](media/E2T4S2.png)
 
