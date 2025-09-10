@@ -49,9 +49,9 @@ Welcome to your Azure Arc-enabled SQL Servers - Single Pane of Glass workshop! W
 
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your **Virtual Machine** and **Guide** will be right at your fingertips within your web browser.
 
-![](media/guide.png)
+![](media/Labintro.png)
 
 ## Virtual Machine & Lab Guide
 
@@ -65,7 +65,7 @@ To get the lab environment details, you can select the **Environment** tab. Addi
  
 ## Utilizing the Split Window Feature
  
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
 ![](media/splitwindow.png)
  
@@ -87,7 +87,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
  
    ![](media//portal.png)
 
-1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following **email/username** , and click on **Next**. 
+1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following **email/username**, and click on **Next**. 
 
    * **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    
@@ -99,7 +99,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
    
       ![](media/GS4.png)
 
-1. If you see the pop-up Action Required, click **Ask Later**.
+1. If you see the pop-up **Action Required**, click **Ask Later**.
 
    ![](media/asklater.png)
    
@@ -113,58 +113,72 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
    
 ## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
 
-1. At the **"More information required"** prompt, select **Next**.
+1. If you see the pop-up **Stay Signed in?**, click **No**.
 
-1. On the **"Keep your account secure"** page, select **Next** twice.
+1. If **Action required** pop-up window appears, click on **Next**.
 
-1. **Note**: If you don’t have the Microsoft Authenticator app installed on your mobile device:
+   ![](./media/dpg11.png)
 
-   - Open Google Play Store (Android) or App Store (iOS).
+1. On **Start by getting the app** page, click on **Next**.
 
-   - Search for Microsoft Authenticator and tap Install.
-       
-   - Open the Microsoft Authenticator app, select Add account, then choose Work or school account.
+1. Click on **Next** twice.
 
-1. A **QR code** will be displayed on your computer screen.
+1. In **android**, go to the play store and Search for **Microsoft Authenticator** and Tap on **Install**.
 
-1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
+   ![Install](./media/dpg12.png)
 
-1. After scanning, click **Next** to proceed.
+   > **Note:** For iOS, open the App Store and repeat the steps.
 
-1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
+   > **Note:** Skip if already installed.
 
-1. If you see the pop-up **Stay signed in?**, select **No**.
+1. Open the app and tap on **Scan a QR code**.
 
-1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
+1. Scan the **QR** code visible on the screen **(1)** and click on **Next (2)**.
 
-   >**NOTE:** Do not enable MFA, select **Ask Later**.
-     
+   ![QR code](./media/dpg13.png)
+
+1. Enter the digit displayed on the Screen in the **Authenticator** app on your mobile and tap on **Yes**.
+
+1. Once the notification is approved, click on **Next**.
+
+   ![Approved](./media/dpg14.png)
+
+1. Click on **Done**.
+
+1. If prompted to stay signed in, you can click **No**.
+
+1. Tap on **Finish** in the Mobile Device.
+
+   > **NOTE:** While logging in again, enter the digits displayed on the screen in the **Authenticator app** and click on Yes.
+
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 1. If a **Welcome to Microsoft Azure** popup window appears, select **Cancel** to skip the tour.
-   
-1. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
-   ![](media/select-rg.png "Resource groups")
-   
-1. Confirm that you have all resource groups present as shown below.
+      ![](media/Welcome(Eng).png "Resource groups")
 
-   ![](media/sql-arc-rgs.png "Resource groups")
+1. Now you will see the **Azure Portal** dashboard, then click on **Resource groups** from the **Navigate** panel to see the **Resource groups**.
+
+   ![](media/English-AzureHome.png "Resource groups")
    
-By completing these exercises, participants will gain the skills to connect and manage both standard and legacy on-premises SQL Server instances using Azure Arc, allowing for centralized oversight through Azure. They will learn to onboard SQL Server instances, including SQL Server 2016, and create a unified management dashboard using Azure Monitor, providing a comprehensive view and control over their entire SQL Server environment from a single interface.
+1. Confirm that you have all **Resource groups** present as shown below.
+
+   ![](media/RG-list.png "Resource groups")
+   
+By completing these exercises, participants will gain the skills to connect and manage both standard and legacy on-premises **SQL Server** instances using **Azure Arc**, allowing for centralized oversight through Azure. They will learn to onboard **SQL Server** instances, including **SQL Server 2016**, and create a unified management dashboard using **Azure Monitor**, providing a comprehensive view and control over their entire SQL Server environment from a single interface.
 
 ## Support Contact
  
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
 Learner Support Contacts:
-- Email Support: cloudlabs-support@spektrasystems.com
-- Live Chat Support: https://cloudlabs.ai/labs-support
+- **Email Support**: cloudlabs-support@spektrasystems.com
+- **Live Chat Support**: https://cloudlabs.ai/labs-support
 
 Now, click on **Next>>** from the lower right corner to move on to the next page.
 
-![](media/lab-next.png)
+![](media/1-n.png)
 
 ### Happy Learning!!
